@@ -4,8 +4,7 @@
 
 When I arrived, the building was there, but the production infrastructure was not. My work was building the operation from that starting point: facility layout, compressed air, production machinery, operating procedures, and operator training.
 
-**Title:** Head of Technical Operations. Trade-show material I prepared also presented me as CTO.
-**Dates:** January–September 2024 (approximate, owner recollection).
+**Head of Technical Operations · January–September 2024 (approximate)**
 
 ## My role
 

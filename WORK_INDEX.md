@@ -12,6 +12,6 @@
 | [CodexDeck](projects/codexdeck.md) | Linux workstation configuration and recovery |
 | [RV power](projects/mobile-power.md) | Solar installation and fault isolation |
 | [Colorado research](projects/colorado-budget-research.md) | Public-data models and source reconciliation |
-| [Mines capstone](projects/mines-capstone.md) | Mechanical contribution to hotspot-detection drone |
+| [Mines capstone](projects/mines-capstone.md) | Team UAV capstone; mechanical engineering |
 
 The project pages cover selected professional, independent, and university work. Private project code and source documents are not included.

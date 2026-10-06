@@ -6,7 +6,7 @@ I’m a Colorado School of Mines mechanical engineering graduate, cum laude. My 
 
 The common thread is working through systems that have to fit together: equipment, utilities, instrumentation, people, and software. This repository brings my experience and project records into one place.
 
-## Start with these
+## Featured work
 
 | Work | What to look for |
 |---|---|
@@ -14,7 +14,9 @@ The common thread is working through systems that have to fit together: equipmen
 | [Cryogenic hardware — Maybell Quantum](projects/cryogenic-hardware.md) | Lake Shore/LattePanda instrumentation and gas-valve controls, manufacturing trials, and a public APS presentation record |
 | [Fabrication and CNC](projects/fabrication-cnc.md) | Waterjet pump rebuild: consistent cutting restored and production resumed in three working days |
 
-## More work
+## Additional work
+
+VanaHR, Argus Audit, ShiftForge, and Lavatune were implemented by AI coding agents under my direction.
 
 | Work | Focus |
 |---|---|
@@ -25,7 +27,7 @@ The common thread is working through systems that have to fit together: equipmen
 | [CodexDeck](projects/codexdeck.md) | Reproducible Linux workstation configuration and recovery |
 | [RV power systems](projects/mobile-power.md) | Sprinter house power and SCAMP solar installation and fault isolation |
 | [Colorado budget research](projects/colorado-budget-research.md) | Reproducible analysis, source reconciliation, and measurement limits |
-| [Mines capstone](projects/mines-capstone.md) | Mechanical contribution to an aerial hotspot-detection drone |
+| [Mines capstone](projects/mines-capstone.md) | Mechanical engineering on a four-rotor wildfire-drone team |
 
 ## Public technical record
 
@@ -38,5 +40,3 @@ B.S. Mechanical Engineering, Colorado School of Mines, December 2021. Cum laude;
 [Experience](EXPERIENCE.md) · [Capabilities with examples](CAPABILITIES.md) · [Complete work index](WORK_INDEX.md)
 
 These pages summarize selected professional and independent work. Private source documents and project code are not included.
-
-VanaHR, Argus Audit, ShiftForge, and Lavatune were implemented by AI coding agents, with my role in directing their development described on the project pages.

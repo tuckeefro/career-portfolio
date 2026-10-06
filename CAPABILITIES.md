@@ -10,5 +10,3 @@
 | Make an operational setup reproducible | Linux workstation configuration, health checks, and rollback material | [CodexDeck](projects/codexdeck.md) |
 | Work from a physical constraint to an equipment choice | Full Sprinter house-power installation; SCAMP solar/shunt installation and roof-space-driven fixed/portable solar split | [RV power](projects/mobile-power.md) |
 | Reconcile sources before drawing conclusions | Budget formula models, fiscal-note bridges, and award/service crosswalks | [Colorado research](projects/colorado-budget-research.md) |
-
-VanaHR, Argus Audit, ShiftForge, and Lavatune were implemented by AI coding agents. I directed their development; the project pages describe the resulting applications and recorded work.
