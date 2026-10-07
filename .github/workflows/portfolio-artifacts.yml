@@ -1,0 +1,32 @@
+name: Portfolio artifacts
+on:
+  push:
+    branches:
+      - main
+      - "portfolio/**"
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-and-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Install figure renderers
+        run: python3 -m pip install --disable-pip-version-check --no-input CairoSVG==2.7.1 matplotlib==3.9.2
+      - name: Check transit arithmetic
+        run: python3 artifacts/colorado-transit-award-service/build_crosswalk.py
+      - name: Render figures and chart
+        run: python3 scripts/render-portfolio.py --output /tmp/portfolio-rendered --emit-preview-data
+      - name: Verify document links and artifacts
+        run: python3 scripts/verify-portfolio.py
+      - name: Upload figure previews
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: portfolio-figure-previews
+          path: /tmp/portfolio-rendered
+          if-no-files-found: error
+          retention-days: 14

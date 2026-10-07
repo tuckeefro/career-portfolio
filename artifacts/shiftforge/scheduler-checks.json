@@ -1,0 +1,58 @@
+{
+  "recorded_on": "2026-10-07",
+  "source_revision": "96b53ae0285065252eee84250aafd07a037dc8cd",
+  "source_blob": "41be8326d515cd8499a556052904a0c6a59c5bce",
+  "harness_blob": "f528f4c3cc26c469a7bf4c45890341be2e9f3d91",
+  "execution": "V8 isolate; original CommonJS scheduler module and original scheduler-only QA function; CommonJS loading adapted in memory; optional PTO and compliance modules absent",
+  "scope": "Synthetic algorithm execution and 12 existing scheduler assertions. Browser UI, authentication, database access, external integrations, and regulatory compliance were not exercised.",
+  "assertions": [
+    {
+      "message": "Scheduler module loads",
+      "passed": true
+    },
+    {
+      "message": "No employees -> no generated shifts",
+      "passed": true
+    },
+    {
+      "message": "No employees -> warning emitted",
+      "passed": true
+    },
+    {
+      "message": "Manual assignment seats are respected",
+      "passed": true
+    },
+    {
+      "message": "Approved PTO blocks auto assignment",
+      "passed": true
+    },
+    {
+      "message": "Approved PTO contributes to understaffed slot",
+      "passed": true
+    },
+    {
+      "message": "Consecutive-day cap enforced",
+      "passed": true
+    },
+    {
+      "message": "Consecutive-day cap causes shortage when no alternatives",
+      "passed": true
+    },
+    {
+      "message": "Min rest-hours guardrail enforced",
+      "passed": true
+    },
+    {
+      "message": "Manual validation catches PTO conflicts",
+      "passed": true
+    },
+    {
+      "message": "Manual validation catches duplicate day assignment",
+      "passed": true
+    },
+    {
+      "message": "Manual validation catches clopening/rest violations",
+      "passed": true
+    }
+  ]
+}

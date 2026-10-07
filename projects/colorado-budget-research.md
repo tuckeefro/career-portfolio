@@ -12,3 +12,7 @@ This work examines how Colorado funding rules and public records connect to allo
 - Recording where available data support a descriptive finding and where they cannot establish a causal effect.
 
 The work combines quantitative analysis with judgment about what the records can measure. A selected case study includes the route-level transcription, arithmetic-checking script, and a dashboard observation with source and measurement limits. It traces a public transit grant to announced schedule changes; it does not infer operated service, grant spending by route, or causal effects. [Read the transit award/service case study](../artifacts/colorado-transit-award-service/README.md).
+
+## Supporting figure
+
+[Headway-derived scheduled-frequency comparison](../artifacts/colorado-transit-award-service/frequency-comparison.md), generated from the retained route crosswalk.

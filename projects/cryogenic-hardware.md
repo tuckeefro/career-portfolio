@@ -36,6 +36,12 @@ I tried modifications to improve the straightness of the welding setup used in c
 
 The trials showed that the available setup lacked the precision needed for that phase of the experiment. This work covered adapting equipment and assessing its suitability for the experimental task.
 
+## Supporting instrumentation figure
+
+![Maybell measurement and operator-command paths](../artifacts/cryogenic-hardware/instrumentation-flow.svg)
+
+Reconstructed from this account. Measurements and operator commands are shown separately; wiring and communication details remain unspecified. [Supporting record](../artifacts/cryogenic-hardware/README.md).
+
 ## Public technical record
 
 The American Physical Society lists me as presenter and coauthor of **Scalable Flexible Coaxial Ribbon Cables for High-Density Quantum Wiring (Part II)** at the 2023 March Meeting. Its abstract describes laser-welded cable manufacturing and room/cryogenic-temperature characterization. [Read the APS record](https://meetings-archive.aps.org/mar/2023/q72/5/).

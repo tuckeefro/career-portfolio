@@ -8,11 +8,15 @@ The assistant can inspect accessible repositories, sort source material, draft c
 
 Tucker supplies or corrects the firsthand facts: personal contribution, equipment details, what photographs show, recalled decisions and results, and whether employer or team material can be included. A new diagram explains the existing account; it does not independently verify the historical work.
 
+## Completed supporting records
+
+The branch now includes four physical-work SVG figures, software supporting records, an executed ShiftForge fixture with 12 passed scheduler assertions, and a transit-frequency rendering workflow. [Supporting index](../artifacts/README.md) · [Source review](SOURCE_REVIEW.md).
+
 ## Current priority
 
 1. Compressed air: the draft decision figure is ready for factual review. Next evidence to locate is the airflow worksheet or machine demand sheet.
 2. Waterjet repair: the draft repair sequence is ready for factual review. Next evidence to locate is one original repair or cut-sample photo.
-3. Maybell: the existing instrumentation diagram can be extended after confirming the actual signal and control connections. Next evidence to locate is one publishable GUI screenshot, wiring note, or setup photo.
+3. Maybell: the new measurement/control figure is ready for factual review. Next evidence to locate is one publishable GUI screenshot, wiring note, or setup photo.
 
 ## Coverage and next evidence
 

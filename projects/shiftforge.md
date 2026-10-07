@@ -13,3 +13,7 @@ I directed development through AI coding agents. The agents produced the impleme
 The project combines a greedy coverage scheduler with an authenticated labor-data integration. The engineering questions are how constraints are represented, how imported data is normalized, and what happens when the available people cannot satisfy coverage.
 
 This is a scheduling project, without claims of global optimization, regulatory compliance, or live deployment. The source repository is private.
+
+## Supporting record
+
+[Actual synthetic scheduler inputs, output, and 12 passed checks](../artifacts/shiftforge/README.md).

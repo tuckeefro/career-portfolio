@@ -1,42 +1,22 @@
-# Tucker Vana
+# Argus Audit
 
-**Mechanical engineer · Manufacturing, cryogenic hardware, equipment integration, and troubleshooting**
+Argus Audit is a privacy-first iOS photo-cleaning app that analyzes your photo library entirely on-device.
 
-I’m a Colorado School of Mines mechanical engineering graduate, cum laude. My experience includes production startup, cryogenic systems, fabrication, CNC equipment, and technical operations. My independent projects extend that work into software, Linux systems, and public-data analysis.
+It helps surface blurry photos, duplicates, near-duplicates, screenshots, common low-value images, and other likely clutter so you can review what is worth keeping before anything is deleted.
 
-The common thread is working through systems that have to fit together: equipment, utilities, instrumentation, people, and software. This repository brings my experience and project records into one place.
+Argus uses Apple-native frameworks including Photos, Vision, Core Image, and Accelerate. There is no backend, account system, analytics service, or photo-upload pipeline. Analysis stays on the device, with iCloud assets accessed through Apple’s Photos APIs when needed.
 
-## Featured work
+The app is intentionally review-first rather than fully autonomous. Argus identifies and ranks likely cleanup candidates; the user decides what actually gets removed.
 
-| Work | What to look for |
-|---|---|
-| [Production startup — Pouch Factory](projects/production-startup.md) | Engineering planning, CAD/calculations, utilities, and hands-on line build and operation |
-| [Cryogenic hardware — Maybell Quantum](projects/cryogenic-hardware.md) | Lake Shore/LattePanda instrumentation and gas-valve controls, manufacturing trials, and a public APS presentation record |
-| [Fabrication and CNC](projects/fabrication-cnc.md) | Waterjet pump rebuild: consistent cutting restored and production resumed in three working days |
+## Core capabilities
 
-## Additional work
+* Blur and image-quality analysis
+* Duplicate and visually similar photo detection
+* Screenshot and common-image identification
+* On-device image similarity using Vision feature prints
+* Review and filtering interface
+* Calibration of detection thresholds
+* Explicit confirmation before deletion
+* Native Photos integration, including Recently Deleted
 
-VanaHR, Argus Audit, ShiftForge, and Lavatune were implemented by AI coding agents under my direction.
-
-| Work | Focus |
-|---|---|
-| [VanaHR](projects/vanahr.md) | Onboarding application; owner-defined 15-minute production rollback requirement and validation |
-| [Lavatune](projects/lavatune.md) | Software experiment built through AI coding agents; public implementation and change history |
-| [Argus Audit](projects/argus-audit.md) | On-device iOS photo analysis and controls around destructive operations |
-| [ShiftForge](projects/shiftforge.md) | Scheduling constraints and application integrations |
-| [CodexDeck](projects/codexdeck.md) | Reproducible Linux workstation configuration and recovery |
-| [RV power systems](projects/mobile-power.md) | Sprinter house power and SCAMP solar installation and fault isolation |
-| [Colorado budget research](projects/colorado-budget-research.md) | Reproducible analysis, source reconciliation, and measurement limits |
-| [Mines capstone](projects/mines-capstone.md) | Mechanical engineering on a four-rotor wildfire-drone team |
-
-## Public technical record
-
-The American Physical Society lists me as presenter and coauthor of **Scalable Flexible Coaxial Ribbon Cables for High-Density Quantum Wiring (Part II)** at the 2023 March Meeting. [View the APS record](https://meetings-archive.aps.org/mar/2023/q72/5/).
-
-## Background
-
-B.S. Mechanical Engineering, Colorado School of Mines, December 2021. Cum laude; 3.65 GPA.
-
-[Experience](EXPERIENCE.md) · [Capabilities with examples](CAPABILITIES.md) · [Complete work index](WORK_INDEX.md)
-
-These pages summarize selected professional and independent work. Private source documents and project code are not included.
+Argus Audit is currently an iOS prototype focused on making large photo libraries easier to inspect and clean without sending personal photos to a third-party service.

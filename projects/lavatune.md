@@ -33,3 +33,7 @@ The existing GitHub checks for the change passed across Linux and macOS on Pytho
 The public repository contains the implementation and usage instructions. The README labels the project alpha.
 
 [View the public repository](https://github.com/tuckeefro/lavatune).
+
+## Supporting record
+
+[Capture and resource-ownership diagram](../artifacts/lavatune/README.md).
