@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="652" viewBox="0 0 1200 652" role="img" aria-labelledby="title desc">
+<title id="title">Waterjet pump repair sequence</title>
+<desc id="desc">Account-based sequence: intermittent loss of cut penetration led to pump inspection, excess cylinder-assembly play was observed, a standard 5,000-hour rebuild kit was installed, and post-repair cutting was checked. Consistent cutting and higher pump-output pressure were reported, with three working days from shutdown to resumed production. No unique failed component or measured pressure values are inferred.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,4.5 L0,9 Z" fill="#475569"/></marker></defs>
+<rect width="1200" height="652" fill="#ffffff"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="64" y="60" font-size="32" font-weight="700" fill="#0f172a">Waterjet pump: repair and return to production</text><text x="64" y="98" font-size="19" font-weight="400" fill="#334155">Sequence reconstructed from Tucker's portfolio account</text><rect x="64" y="146" width="247" height="238" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="80" y="184" font-size="20" font-weight="700" fill="#0f172a">1  Cutting symptom</text><text x="80" y="225" font-size="17" font-weight="400" fill="#334155">Intermittent loss of</text>
+<text x="80" y="252" font-size="17" font-weight="400" fill="#334155">through-cut penetration.</text>
+<text x="80" y="279" font-size="17" font-weight="400" fill="#334155">Clean cutting alternated</text>
+<text x="80" y="306" font-size="17" font-weight="400" fill="#334155">with surface removal.</text>
+<text x="80" y="333" font-size="17" font-weight="400" fill="#334155">Production disrupted.</text>
+<rect x="339" y="146" width="247" height="238" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="355" y="184" font-size="20" font-weight="700" fill="#0f172a">2  Inspection</text><text x="355" y="225" font-size="17" font-weight="400" fill="#334155">Investigated the</text>
+<text x="355" y="252" font-size="17" font-weight="400" fill="#334155">high-pressure pump.</text>
+<text x="355" y="279" font-size="17" font-weight="400" fill="#334155">Found more mechanical</text>
+<text x="355" y="306" font-size="17" font-weight="400" fill="#334155">play than expected in</text>
+<text x="355" y="333" font-size="17" font-weight="400" fill="#334155">cylinder assemblies.</text>
+<rect x="614" y="146" width="247" height="238" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="630" y="184" font-size="20" font-weight="700" fill="#0f172a">3  Rebuild</text><text x="630" y="225" font-size="17" font-weight="400" fill="#334155">Scheduled 5,000-hour</text>
+<text x="630" y="252" font-size="17" font-weight="400" fill="#334155">service with standard kit.</text>
+<text x="630" y="279" font-size="17" font-weight="400" fill="#334155">Disassembly, inspection,</text>
+<text x="630" y="306" font-size="17" font-weight="400" fill="#334155">kit-component replacement,</text>
+<text x="630" y="333" font-size="17" font-weight="400" fill="#334155">and reassembly.</text>
+<rect x="889" y="146" width="247" height="238" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="905" y="184" font-size="20" font-weight="700" fill="#0f172a">4  Check and restart</text><text x="905" y="225" font-size="17" font-weight="400" fill="#334155">Checked the machine</text>
+<text x="905" y="252" font-size="17" font-weight="400" fill="#334155">after the rebuild.</text>
+<text x="905" y="279" font-size="17" font-weight="400" fill="#334155">Consistent cutting returned.</text>
+<text x="905" y="306" font-size="17" font-weight="400" fill="#334155">Pump-output pressure</text>
+<text x="905" y="333" font-size="17" font-weight="400" fill="#334155">readings were higher.</text><path d="M311 270 H335" fill="none" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/><path d="M586 270 H610" fill="none" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/><path d="M861 270 H885" fill="none" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/><rect x="64" y="427" width="1072" height="110" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/><text x="88" y="469" font-size="22" font-weight="700" fill="#0f172a">Reported result: consistent through-cutting and higher pump-output pressure readings.</text><text x="88" y="507" font-size="21" font-weight="400" fill="#334155">Three working days elapsed from shutdown to resumed production.</text><text x="64" y="587" font-size="17" font-weight="400" fill="#334155">Source: projects/fabrication-cnc.md</text><text x="64" y="619" font-size="17" font-weight="400" fill="#334155">Original photos, repair dates, and before/after pressure values are not included in the source.</text>
+</g>
+</svg>
