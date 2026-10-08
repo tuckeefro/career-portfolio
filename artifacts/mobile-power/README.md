@@ -9,3 +9,9 @@ The [installation account](../../projects/mobile-power.md) records a missing PV-
 The diagnostic contribution is the bypass test: it tested the panel/controller separately from the installed wiring path. Continuity alone had not explained the missing input.
 
 The figure is an account-based reconstruction. The existing [battery-monitor photograph](scamp-battery-monitor.jpg) shows installed hardware and display readings; it does not establish solar yield, battery capacity, or the voltage/current history of this fault.
+
+## Retained installation photograph
+
+<img src="scamp-battery-monitor.jpg" width="360" alt="Original photograph of the Renogy battery monitor installed in the SCAMP wall" />
+
+The existing photograph shows the installed battery-monitor display. It supplies installation context; it is not a retained measurement of the PV fault or its correction. [Open the original photograph](scamp-battery-monitor.jpg).
