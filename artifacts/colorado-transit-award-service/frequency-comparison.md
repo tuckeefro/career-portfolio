@@ -13,3 +13,5 @@ Only three rows in the retained crosswalk have both before and after headways. T
 The unit is an implied scheduled rate per hour per direction, assuming the stated headway applies in that direction. These are separate service/period comparisons, not a sum across routes. Service span, actual trips operated, vehicle-hours, route-level grant dollars, and causal effects are not derived.
 
 The underlying [route-service crosswalk](route-service-crosswalk.csv), [arithmetic checker](build_crosswalk.py), and [source/measurement record](README.md) are retained. The figure is generated from the three measurable rows by [the rendering script](../../scripts/render-portfolio.py) using Matplotlib.
+
+[Download the PNG for a post or slide](scheduled-frequency.png).
