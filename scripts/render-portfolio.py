@@ -18,6 +18,7 @@ TRANSIT = ROOT / "artifacts" / "colorado-transit-award-service"
 parser = argparse.ArgumentParser()
 parser.add_argument("--output", type=Path, default=ROOT / ".tmp" / "portfolio-rendered")
 parser.add_argument("--emit-preview-data", action="store_true")
+parser.add_argument("--preview-path", action="append", default=[], help="Limit inline previews to these repository SVG paths")
 args = parser.parse_args()
 args.output.mkdir(parents=True, exist_ok=True)
 
@@ -89,7 +90,7 @@ for figure in sorted((ROOT / "artifacts").rglob("*.svg")):
     cairosvg.svg2png(url=str(figure), write_to=str(png_path), output_width=1440)
     cairosvg.svg2png(url=str(figure), write_to=str(phone_path), output_width=375)
     print(f"Rendered {relative} -> {png_path.name}; phone review at 375 px")
-    if args.emit_preview_data:
+    if args.emit_preview_data and (not args.preview_path or relative in args.preview_path):
         emit("PREVIEW", relative, png_path.read_bytes())
         emit("PHONE", relative, phone_path.read_bytes())
 
