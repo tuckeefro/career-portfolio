@@ -22,7 +22,7 @@ jobs:
       - name: Check transit arithmetic
         run: python3 artifacts/colorado-transit-award-service/build_crosswalk.py
       - name: Render figures and chart
-        run: python3 scripts/render-portfolio.py --output /tmp/portfolio-rendered --emit-preview-data
+        run: python3 scripts/render-portfolio.py --output /tmp/portfolio-rendered
       - name: Verify document links and artifacts
         run: python3 scripts/verify-portfolio.py
       - name: Upload figure previews

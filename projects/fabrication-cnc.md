@@ -22,6 +22,6 @@ This is a practical equipment-repair example: moving from symptoms at the cuttin
 
 ## Supporting repair figure
 
-![Waterjet cutting symptom, inspection, rebuild, and return to production](../artifacts/fabrication-cnc/waterjet-repair-sequence.svg)
+![Qualitative interrupted-cut pattern, upstream pump inspection, and reported three-day return to production](../artifacts/fabrication-cnc/waterjet-repair-sequence.svg)
 
 Reconstructed from this account. Timing and results are owner-reported; original repair photos and numerical pressure records are not included. [Supporting record and source status](../artifacts/fabrication-cnc/README.md).

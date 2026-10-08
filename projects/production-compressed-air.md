@@ -23,7 +23,7 @@ The facility started as a building without the infrastructure needed to run the 
 
 ## Supporting decision figure
 
-![Compressed-air decisions and functional supply arrangement](../artifacts/production-compressed-air/compressed-air-decisions.svg)
+![Compressed-air supply with an operating first line and dashed planned second-line branch](../artifacts/production-compressed-air/compressed-air-decisions.svg)
 
 Reconstructed from this account. The dashed branch marks planned second-line demand; that capacity was not exercised. [Supporting record and source status](../artifacts/production-compressed-air/README.md).
 

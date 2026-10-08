@@ -22,7 +22,7 @@ The van manual records two 100 W Renogy panels, a 280 Ah Eco-Worthy lithium batt
 
 ## Supporting fault-isolation figure
 
-![SCAMP missing-PV fault isolation](../artifacts/mobile-power/scamp-pv-fault-isolation.svg)
+![Installed PV path compared with the successful direct-panel test](../artifacts/mobile-power/scamp-pv-fault-isolation.svg)
 
 Reconstructed from the troubleshooting account. [Supporting record](../artifacts/mobile-power/README.md).
 

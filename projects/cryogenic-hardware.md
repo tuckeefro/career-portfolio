@@ -38,7 +38,7 @@ The trials showed that the available setup lacked the precision needed for that 
 
 ## Supporting instrumentation figure
 
-![Maybell measurement and operator-command paths](../artifacts/cryogenic-hardware/instrumentation-flow.svg)
+![Measurement readouts and operator valve commands share one functional GUI](../artifacts/cryogenic-hardware/instrumentation-flow.svg)
 
 Reconstructed from this account. Measurements and operator commands are shown separately; wiring and communication details remain unspecified. [Supporting record](../artifacts/cryogenic-hardware/README.md).
 

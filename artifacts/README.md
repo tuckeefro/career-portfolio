@@ -16,3 +16,5 @@
 Account-based physical diagrams are labeled as reconstructions. Software records distinguish source inspection, synthetic execution, and live operation. The private implementations remain in their original repositories.
 
 [Prepared posts and downloadable figures](../posts/README.md) pair two cases with copy, captions, alt text, and PNG exports.
+
+[How to read the revised figures and their evidence](../docs/FIGURE_GUIDE.md).

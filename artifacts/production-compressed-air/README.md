@@ -2,7 +2,9 @@
 
 This figure reconstructs the decisions described in [the compressed-air project account](../../projects/production-compressed-air.md). It is a supporting explanation of that account. Original sizing calculations, machine requirement sheets, and equipment quotations are not included.
 
-![Three compressed-air decisions and the functional supply arrangement](compressed-air-decisions.svg)
+![Functional air supply with reported first-line operation, planned second-line allowance, and cost/duty-cycle decisions](compressed-air-decisions.svg)
+
+[Download the PNG](compressed-air-decisions.png). The solid branch describes the first line's operating load. The dashed branch represents planned demand; the drawing does not specify pipe routing or measured capacity.
 
 The figure connects machine airflow requirements, a planned second-line allowance, rental under the startup budget, and operation without purchasing another receiver. Tucker selected and integrated the rented package, filtration, and distribution. First-line operation during equipment break-in and the initial production run is reported in the source account; second-line capacity was not exercised.
 

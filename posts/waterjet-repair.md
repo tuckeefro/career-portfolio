@@ -24,7 +24,7 @@ Waterjet pump repair: intermittent loss of through-cutting, cylinder-assembly in
 
 ## Alt text
 
-Repair sequence from left to right: intermittent waterjet cut penetration; high-pressure pump inspection finds unexpected play in the cylinder assemblies; disassembly and standard 5,000-hour rebuild; reassembly and machine checks; consistent through-cutting returns and production resumes. The diagram labels the timing and results as owner-reported.
+A qualitative strip shows through-cutting interrupted by roughly one inch of surface removal. Below it, a pump supplies pressure to the cutting process; the pump inspection found unexpected cylinder-assembly play. A standard 5,000-hour rebuild, reassembly, and checks led to reported consistent through-cutting and resumed production after three working days. The strip is a reconstructed illustration, not a measured cut trace.
 
 ## Evidence behind the wording
 

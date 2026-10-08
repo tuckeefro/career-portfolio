@@ -1,6 +1,8 @@
 # Mobile power: SCAMP solar fault isolation
 
-![PV observation, bypass test, connector inspection, and restored input](scamp-pv-fault-isolation.svg)
+![Installed cable and connector path compared with the successful direct-panel test](scamp-pv-fault-isolation.svg)
+
+[Download the PNG](scamp-pv-fault-isolation.png). The two configurations show the diagnostic comparison. Connector order, conductor sizes, protection, and battery wiring are outside this functional test diagram.
 
 The [installation account](../../projects/mobile-power.md) records a missing PV-input problem, a direct panel-to-controller test, identification of an improperly assembled MC4 connector, and restoration of input after correction. Tucker installed the solar/shunt setup and corrected his own connector assembly.
 
