@@ -1,0 +1,93 @@
+{
+  "format": "career-portfolio-air-storage-inputs-v1",
+  "study_date": "2026-10-09",
+  "purpose": "Illustrative engineering analysis of transient compressed-air storage.",
+  "prepared_by": "AI coding assistant under Tucker Vana's direction",
+  "historical_equipment_inputs": false,
+  "reference": {
+    "pressure_pa": 101325,
+    "temperature_k": 293.15,
+    "flow_unit": "cubic feet per minute at the stated reference pressure and temperature"
+  },
+  "receiver": {
+    "initial_gauge_psi": 100,
+    "minimum_gauge_psi": 80,
+    "temperature_k": 293.15,
+    "volume_definition": "total effective compressed-air storage; not an additional receiver purchase"
+  },
+  "sweep": {
+    "volumes_us_gal": [
+      40,
+      80,
+      120,
+      240
+    ],
+    "shortfalls_ref_cfm": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100
+    ],
+    "grid_shortfalls_ref_cfm": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "durations_s": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ]
+  },
+  "transient": {
+    "compressor_ref_cfm": 40,
+    "burst_demand_ref_cfm": 80,
+    "post_burst_demand_ref_cfm": 20,
+    "burst_duration_s": 30,
+    "volumes_us_gal": [
+      80,
+      120
+    ]
+  },
+  "method": {
+    "source_url": "https://www.energy.gov/sites/default/files/2016/03/f30/Improving%20Compressed%20Air%20Sourcebook%20version%203.pdf",
+    "source_title": "DOE, Improving Compressed Air System Performance, third edition, Fact Sheet 6",
+    "printed_page": 43,
+    "pdf_page_index": 47,
+    "accessed_date": "2026-10-09",
+    "model": "constant-temperature ideal-gas inventory with constant reference-flow supply and demand; stop at the selected minimum pressure"
+  },
+  "excluded": [
+    "pipe/filter/regulator pressure losses",
+    "compressor response and load/unload controls",
+    "temperature transients",
+    "energy use and cost",
+    "validation of the historical Pouch Factory system"
+  ]
+}

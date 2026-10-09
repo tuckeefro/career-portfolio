@@ -24,3 +24,9 @@ The career dossier contains unresolved production-output and other numerical cla
 The unmodified public Lavatune render benchmark at revision `f79516e82b9b6383ea1d169be2937c9ba6a5a93d` was executed five times in fresh subprocesses on one Ubuntu 24.04 GitHub Actions runner. Each repetition used 120 synthetic frames per path at a 120 × 30 terminal target. The complete reports, source, host, timestamps, and execution method are retained in [renderer-benchmark.json](../artifacts/lavatune/renderer-benchmark.json).
 
 [Recorded execution](https://github.com/tuckeefro/career-portfolio/actions/runs/37884435911). The figure compares component work for scalar-field Fluid and contour Fluid; live audio capture, terminal presentation, power consumption, and visual equivalence were not established. Original physical-work drawings, calculations, and test records remain unlocated in the targeted accessible Drive searches.
+
+## Autonomous engineering supplement: October 9, 2026
+
+Targeted connected-Drive searches for Pouch and Sprinter returned career documents for Pouch and no Sprinter results. The career dossier was inspected; its unresolved numerical claims were not promoted into historical project figures.
+
+The DOE sourcebook, third edition, Fact Sheet 6, printed page 43 (PDF page 48), was inspected for the receiver inventory equation and the treatment of supply during a demand event. The [air-storage supplement](../artifacts/air-storage-study/README.md) implements a current worked example with explicitly illustrative inputs, constant-temperature ideal-gas inventory, raw tables, and mathematical checks. Figures and PDF exports are generated from those records. This is an AI-assisted engineering study, separate from validation of the historical installation.

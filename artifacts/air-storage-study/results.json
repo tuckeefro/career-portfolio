@@ -1,0 +1,87 @@
+{
+  "format": "career-portfolio-air-storage-results-v1",
+  "inputs_sha256": "317d48a1cd2fd53cc6790ae13c767c682772d891d4f5c1133ad1e2be21de5f5b",
+  "scope": "Analytical outputs for illustrative inputs; no plant measurement or historical system validation.",
+  "reference_pressure_psia": 14.695948775514,
+  "pressure_band_psi": 20,
+  "worked_event": {
+    "shortfall_ref_cfm": 40,
+    "duration_s": 30,
+    "reference_air_inventory_ft3": 20.0,
+    "required_total_volume_us_gal": 109.9333311,
+    "recovery_margin_ref_cfm": 20,
+    "recovery_time_s": 60.0,
+    "receivers": [
+      {
+        "volume_us_gal": 80,
+        "time_to_floor_s": 21.831413421,
+        "meets_burst_duration_in_model": false,
+        "burst_end_pressure_psig": null,
+        "recovery_time_s": null,
+        "trace_stops_at_floor": true
+      },
+      {
+        "volume_us_gal": 120,
+        "time_to_floor_s": 32.747120132,
+        "meets_burst_duration_in_model": true,
+        "burst_end_pressure_psig": 81.67777815,
+        "recovery_time_s": 60.0,
+        "trace_stops_at_floor": false
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "US gallon / cubic-foot conversion",
+      "passed": true
+    },
+    {
+      "name": "80-gal reference case",
+      "passed": true
+    },
+    {
+      "name": "Volume-time inverse",
+      "passed": true
+    },
+    {
+      "name": "Double volume doubles time",
+      "passed": true
+    },
+    {
+      "name": "Double shortfall halves time",
+      "passed": true
+    },
+    {
+      "name": "Zero shortfall has no inventory depletion",
+      "passed": true
+    },
+    {
+      "name": "Zero event duration requires no buffer",
+      "passed": true
+    },
+    {
+      "name": "Double pressure band doubles buffer time",
+      "passed": true
+    },
+    {
+      "name": "Independent SI volume agrees",
+      "passed": true
+    },
+    {
+      "name": "Recovery conserves reference-air inventory",
+      "passed": true
+    },
+    {
+      "name": "Receiver-temperature factor",
+      "passed": true
+    },
+    {
+      "name": "80-gal trace endpoint",
+      "passed": true
+    },
+    {
+      "name": "120-gal trace endpoint",
+      "passed": true
+    }
+  ]
+}

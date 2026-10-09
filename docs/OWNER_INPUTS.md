@@ -1,8 +1,10 @@
-# Firsthand details that strengthen the career packet
+# Source details for future career-packet revisions
 
 The current packet is usable from the retained accounts. These details would let the next revision show actual hardware, calculations, or checks more precisely. A brief answer, rough sketch, or folder path is enough to start.
 
-## First small pass: waterjet
+Work continues from existing accounts, accessible sources, and reproducible studies. These questions are parked for future revisions; a response is not needed for the current work. [The air-storage study](../artifacts/air-storage-study/README.md) is one completed example of analysis that uses its own explicit inputs.
+
+## Future waterjet detail
 
 - What machine or high-pressure pump was it?
 - In which cylinder assembly did you find play, and what moved relative to what?
