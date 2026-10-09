@@ -15,10 +15,4 @@ Each packet includes copy, a PNG to attach, a caption, alt text, and links to th
 
 A repair photo or service record would strengthen the waterjet case if you have one. The current version can be presented as your own repair account with a clearly labeled reconstruction.
 
-## Division of work
-
-Codex can turn existing records into readable cases, generate figures from retained data, check arithmetic and links, prepare post copy, and keep the repository organized.
-
-Your highest-value contribution is correcting technical details from memory, adding original work artifacts when you have them, and explaining decisions that the documents do not capture. Start with one waterjet photo or repair record, a Pouch Factory air-requirement worksheet, or a Maybell instrumentation screenshot.
-
-The [evidence map](../docs/EVIDENCE_MAP.md) tracks the wider work history and what is already supported.
+[Figure evidence guide](../docs/FIGURE_GUIDE.md) · [Complete evidence map](../docs/EVIDENCE_MAP.md)

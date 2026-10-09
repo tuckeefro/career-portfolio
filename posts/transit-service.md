@@ -18,7 +18,7 @@ The attached chart shows those three comparisons. These are announced schedules.
 
 I published the route crosswalk, source links, calculation method, and a checking script so the result can be inspected.
 
-Chart, data, and method: https://github.com/tuckeefro/career-portfolio/blob/portfolio/supporting-evidence-2026-10-07/artifacts/colorado-transit-award-service/frequency-comparison.md
+Chart, data, and method: https://github.com/tuckeefro/career-portfolio/blob/main/artifacts/colorado-transit-award-service/frequency-comparison.md
 
 ## Caption
 

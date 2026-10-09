@@ -16,7 +16,7 @@ Consistent through-cutting returned, and production restarted.
 
 The figure traces the cutting symptom, inspection, rebuild, and return to production. It is a reconstruction from my own repair account.
 
-The repair record: https://github.com/tuckeefro/career-portfolio/blob/portfolio/supporting-evidence-2026-10-07/projects/fabrication-cnc.md
+The repair record: https://github.com/tuckeefro/career-portfolio/blob/main/projects/fabrication-cnc.md
 
 ## Caption
 

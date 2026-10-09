@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from html import unescape
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -10,6 +11,7 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
+HTML_LINK = re.compile(r"""(?:src|href)\s*=\s*["\']([^"\']+)["\']""", re.IGNORECASE)
 errors: list[str] = []
 markdown_count = 0
 svg_count = 0
@@ -19,8 +21,9 @@ for document in sorted(ROOT.rglob("*.md")):
     if any(part.startswith(".") for part in relative.parts):
         continue
     markdown_count += 1
-    for target in LINK.findall(document.read_text(encoding="utf-8")):
-        target = target.strip().strip("<>")
+    content = document.read_text(encoding="utf-8")
+    for target in LINK.findall(content) + HTML_LINK.findall(content):
+        target = unescape(target.strip().strip("<>"))
         if target.startswith(("https://", "http://", "mailto:", "#")):
             continue
         target = unquote(target.split("#", 1)[0])

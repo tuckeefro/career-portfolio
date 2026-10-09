@@ -25,3 +25,18 @@ The transit rows share one frequency scale. Percent changes are computed within 
 ## To strengthen a case
 
 Retain the original artifact, identify its date and operating conditions where known, mark the relevant feature, and explain the decision it supported. Keep recalled facts labeled as recollection. A repair photo, worksheet, or screenshot can be redacted when needed while preserving the technical relationship a reader needs to inspect.
+
+## Regenerate and check the exports
+
+The source SVGs live beside their supporting records. The transit SVG is generated from the retained crosswalk. Regeneration writes all five PNGs beside their source figures; checking compares the committed transit SVG and PNG pixels with fresh renders.
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install CairoSVG==2.7.1 matplotlib==3.9.2
+.venv/bin/python artifacts/colorado-transit-award-service/build_crosswalk.py
+.venv/bin/python scripts/render-portfolio.py --write-assets
+.venv/bin/python scripts/render-portfolio.py --check
+.venv/bin/python scripts/verify-portfolio.py
+```
+
+Commit the updated source and PNG together. The default output directory contains full-size PNGs, 375-pixel previews, and the generated transit SVG. CI uses check mode so it detects a stale export without replacing the committed copy.
