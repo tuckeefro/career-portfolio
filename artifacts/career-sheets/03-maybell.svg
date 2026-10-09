@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1080 1528" role="img" aria-labelledby="title desc">
+<title id="title">Maybell instrumentation and operator-control engineering case</title><desc id="desc">Instrument readout integration and gas-valve controls shared a GUI for the team&#x27;s refrigeration prototype. Functional reconstruction. Acquisition protocols, valve-driver electronics, timing, and accuracy are unspecified.</desc>
+<defs><marker id="flow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1764C0"/></marker><marker id="command" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#99520C"/></marker></defs>
+<rect width="1080" height="1528" fill="white"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="65" font-size="24" font-weight="bold" fill="#617285" text-anchor="start">TUCKER VANA / CASE 03</text>
+<text x="1020" y="65" font-size="26" font-weight="bold" fill="#1764C0" text-anchor="end">Maybell Quantum</text>
+<text x="60" y="146" font-size="52" font-weight="bold" fill="#142434" text-anchor="start">Bring readouts together.</text>
+<text x="60" y="210" font-size="52" font-weight="bold" fill="#142434" text-anchor="start">Give operators control.</text>
+<text x="60" y="267" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">I set up and wired the Lake Shore 372, integrated its readout</text>
+<text x="60" y="304" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">through a LattePanda, and combined readings and valve controls in</text>
+<text x="60" y="341" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">one GUI.</text>
+<rect x="60" y="386" width="960" height="106" rx="10" fill="#EAF3FF" stroke="#1764C0" stroke-width="2"/>
+<text x="84" y="431" font-size="38" font-weight="bold" fill="#1764C0" text-anchor="start">One operator interface</text>
+<text x="84" y="470" font-size="24" font-weight="normal" fill="#617285" text-anchor="start">System readouts and pneumatic-valve commands · project account</text>
+<text x="60" y="547" font-size="30" font-weight="bold" fill="#142434" text-anchor="start">Measurement and operator-command paths</text>
+<rect x="60" y="582" width="358" height="150" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="239" y="635" font-size="30" font-weight="bold" fill="#142434" text-anchor="middle">Lake Shore 372</text>
+<text x="239" y="678" font-size="25" font-weight="normal" fill="#142434" text-anchor="middle">Instrument readout</text>
+<rect x="674" y="582" width="346" height="150" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="847" y="622" font-size="29" font-weight="bold" fill="#142434" text-anchor="middle">System readouts</text>
+<text x="847" y="667" font-size="25" font-weight="normal" fill="#142434" text-anchor="middle">Pressure · flow</text>
+<text x="847" y="704" font-size="23" font-weight="normal" fill="#142434" text-anchor="middle">Heater output · valve state</text>
+<rect x="60" y="795" width="358" height="115" rx="10" fill="white" stroke="#D8E0E8" stroke-width="2"/>
+<text x="239" y="842" font-size="30" font-weight="bold" fill="#142434" text-anchor="middle">LattePanda</text>
+<text x="239" y="883" font-size="24" font-weight="normal" fill="#142434" text-anchor="middle">Readout integration</text>
+<rect x="488" y="795" width="532" height="149" rx="10" fill="#EAF3FF" stroke="#1764C0" stroke-width="2"/>
+<text x="754" y="850" font-size="33" font-weight="bold" fill="#1764C0" text-anchor="middle">Shared operator GUI</text>
+<text x="754" y="901" font-size="27" font-weight="normal" fill="#142434" text-anchor="middle">Readouts + valve controls</text>
+<path d="M239 732 V785" fill="none" stroke="#1764C0" stroke-width="5" stroke-linejoin="round" marker-end="url(#flow)"/>
+<path d="M418 850 H478" fill="none" stroke="#1764C0" stroke-width="5" stroke-linejoin="round" marker-end="url(#flow)"/>
+<path d="M847 732 V785" fill="none" stroke="#1764C0" stroke-width="5" stroke-linejoin="round" marker-end="url(#flow)"/>
+<rect x="488" y="1024" width="232" height="112" rx="10" fill="#FFF3E1" stroke="#99520C" stroke-width="2"/>
+<text x="604" y="1072" font-size="29" font-weight="bold" fill="#99520C" text-anchor="middle">Operator</text>
+<text x="604" y="1114" font-size="25" font-weight="normal" fill="#142434" text-anchor="middle">Commands</text>
+<rect x="774" y="1024" width="246" height="112" rx="10" fill="#FFF3E1" stroke="#99520C" stroke-width="2"/>
+<text x="897" y="1072" font-size="27" font-weight="bold" fill="#99520C" text-anchor="middle">Pneumatic</text>
+<text x="897" y="1111" font-size="27" font-weight="bold" fill="#99520C" text-anchor="middle">gas valves</text>
+<path d="M604 1024 V954" fill="none" stroke="#99520C" stroke-width="5" stroke-linejoin="round" marker-end="url(#command)"/>
+<path d="M897 944 V1014" fill="none" stroke="#99520C" stroke-width="5" stroke-linejoin="round" marker-end="url(#command)"/>
+<text x="60" y="1164" font-size="25" font-weight="bold" fill="#1764C0" text-anchor="start">Blue: readouts</text>
+<text x="488" y="1164" font-size="25" font-weight="bold" fill="#99520C" text-anchor="start">Orange: operator commands</text>
+<text x="60" y="1210" font-size="30" font-weight="bold" fill="#142434" text-anchor="start">Decisions and contribution</text>
+<rect x="60" y="1238" width="960" height="69" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="84" y="1272" font-size="26" font-weight="bold" fill="#1764C0" text-anchor="start">My part</text>
+<text x="287" y="1270" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">Instrument setup and wiring, readout integration, and</text>
+<text x="287" y="1301" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">GUI/control connections.</text>
+<rect x="60" y="1315" width="960" height="69" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="84" y="1349" font-size="26" font-weight="bold" fill="#1764C0" text-anchor="start">Related work</text>
+<text x="287" y="1347" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">Connector trials; CNC-welder jogging integration. Setup</text>
+<text x="287" y="1378" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">lacked required precision.</text>
+<text x="60" y="1420" font-size="22" font-weight="normal" fill="#617285" text-anchor="start">Functional reconstruction. Acquisition protocols, valve-driver electronics, timing, and</text>
+<text x="60" y="1449" font-size="22" font-weight="normal" fill="#617285" text-anchor="start">accuracy are unspecified.</text>
+<a href="https://github.com/tuckeefro/career-portfolio/blob/main/projects/cryogenic-hardware.md"><text x="60" y="1492" font-size="22" font-weight="normal" fill="#1764C0" text-anchor="start">Source: projects/cryogenic-hardware.md</text></a>
+</g></svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1080 1528" role="img" aria-labelledby="title desc">
+<title id="title">Tucker Vana engineering case packet overview</title><desc id="desc">Mechanical engineering, manufacturing, equipment integration, and troubleshooting. My work combines technical planning with hands-on setup, operation, and repair. These cases show specific decisions and my contribution.</desc>
+<defs><marker id="flow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1764C0"/></marker><marker id="command" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#99520C"/></marker></defs>
+<rect width="1080" height="1528" fill="white"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="74" font-size="24" font-weight="bold" fill="#617285" text-anchor="start">ENGINEERING AND EQUIPMENT WORK</text>
+<text x="60" y="152" font-size="66" font-weight="bold" fill="#142434" text-anchor="start">Tucker Vana</text>
+<text x="60" y="214" font-size="38" font-weight="bold" fill="#1764C0" text-anchor="start">Engineering case packet</text>
+<text x="60" y="280" font-size="29" font-weight="normal" fill="#142434" text-anchor="start">My work combines technical planning with hands-on setup,</text>
+<text x="60" y="318" font-size="29" font-weight="normal" fill="#142434" text-anchor="start">operation, and repair. These cases show specific decisions and</text>
+<text x="60" y="356" font-size="29" font-weight="normal" fill="#142434" text-anchor="start">my contribution.</text>
+<rect x="60" y="412" width="960" height="242" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="84" y="451" font-size="24" font-weight="bold" fill="#1764C0" text-anchor="start">CASE 01 / Pouch Factory</text>
+<text x="84" y="496" font-size="34" font-weight="bold" fill="#142434" text-anchor="start">Production air supply</text>
+<text x="84" y="540" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">Air supply selected for initial production, with allowance for a</text>
+<text x="84" y="576" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">planned second line and a constrained startup budget.</text>
+<text x="84" y="627" font-size="29" font-weight="bold" fill="#1764C0" text-anchor="start">First line supplied</text>
+<rect x="60" y="676" width="960" height="242" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="84" y="715" font-size="24" font-weight="bold" fill="#1764C0" text-anchor="start">CASE 02 / Fabrication / CNC</text>
+<text x="84" y="760" font-size="34" font-weight="bold" fill="#142434" text-anchor="start">Waterjet pump rebuild</text>
+<text x="84" y="804" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">An intermittent cutting fault led to pump inspection, a standard</text>
+<text x="84" y="840" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">scheduled rebuild, and resumed production.</text>
+<text x="84" y="891" font-size="29" font-weight="bold" fill="#1764C0" text-anchor="start">3 working days</text>
+<rect x="60" y="940" width="960" height="242" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="84" y="979" font-size="24" font-weight="bold" fill="#1764C0" text-anchor="start">CASE 03 / Maybell Quantum</text>
+<text x="84" y="1024" font-size="34" font-weight="bold" fill="#142434" text-anchor="start">Prototype instrumentation</text>
+<text x="84" y="1068" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">Instrument readout integration and gas-valve controls shared a</text>
+<text x="84" y="1104" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">GUI for the team&#x27;s refrigeration prototype.</text>
+<text x="84" y="1155" font-size="29" font-weight="bold" fill="#1764C0" text-anchor="start">One operator interface</text>
+<text x="60" y="1260" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">B.S. Mechanical Engineering, Colorado School of Mines, December 2021.</text>
+<text x="60" y="1293" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">Cum laude; 3.65 GPA.</text>
+<text x="60" y="1360" font-size="24" font-weight="normal" fill="#617285" text-anchor="start">Earlier practical work: truck driving, forklift/skid-steer operation, material</text>
+<text x="60" y="1392" font-size="24" font-weight="normal" fill="#617285" text-anchor="start">handling, and yard work at DBC Irrigation Supply.</text>
+<text x="60" y="1484" font-size="22" font-weight="normal" fill="#617285" text-anchor="start">Full experience and project sources:</text>
+<a href="https://github.com/tuckeefro/career-portfolio/blob/main/WORK_INDEX.md"><text x="508" y="1484" font-size="22" font-weight="normal" fill="#1764C0" text-anchor="start">github.com/tuckeefro/career-portfolio</text></a>
+</g></svg>
