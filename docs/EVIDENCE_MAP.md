@@ -1,22 +1,22 @@
 # Portfolio evidence map
 
-Working review prepared October 7, 2026, from repository main commit `78461bf1887f522c9061b06e2c48ddc909f7a21e`. This document tracks what can be produced from existing material and which input depends on Tucker's firsthand knowledge. Figure and execution coverage was updated October 8, 2026.
+Working review prepared October 7, 2026, from repository main commit `78461bf1887f522c9061b06e2c48ddc909f7a21e`. This document tracks what can be produced from existing material and which input depends on Tucker's firsthand knowledge. Figure and execution coverage was updated October 9, 2026.
 
 ## Work split
 
 The assistant can inspect accessible repositories, sort source material, draft case studies, draw account-based diagrams, format calculation records, build charts from retained data, check links, and prepare GitHub changes for review.
 
-Tucker supplies or corrects the firsthand facts: personal contribution, equipment details, what photographs show, recalled decisions and results, and whether employer or team material can be included. A new diagram explains the existing account; it does not independently verify the historical work.
+Tucker supplies or corrects the firsthand facts: personal contribution, equipment details, what photographs show, recalled decisions and results, and whether employer or team material can be included. A new diagram explains the existing account; it does not independently verify the historical work. Firsthand questions can remain parked while the assistant runs source searches, published-reference analysis, current studies with explicit inputs, and file checks.
 
 ## Completed supporting records
 
 The repository includes four physical-work figures, two transit figures, and a ShiftForge constraint matrix generated from the retained synthetic inputs and actual normalized output. A measured Lavatune renderer figure adds five executions of the original public benchmark, with raw results and host conditions retained. The software supporting records and the retained ShiftForge run with 12 passed scheduler assertions remain available. The rendering workflow checks generated SVGs and retained PNG exports. [Supporting index](../artifacts/README.md) · [Source review](SOURCE_REVIEW.md).
 
-## Current priority
+## Work that can run without new owner input
 
-1. Compressed air: locate the airflow worksheet or machine demand sheet to make the sizing calculation inspectable.
-2. Waterjet repair: locate one original repair or cut-sample photo to support the reconstructed sequence.
-3. Maybell: locate one publishable GUI screenshot, wiring note, or setup photo to add physical detail.
+The [current air-storage study](../artifacts/air-storage-study/README.md) adds three quantitative engineering figures, retained input/result tables, mathematical checks, and a printable supplement. It uses illustrative inputs and the DOE method; it does not validate historical Pouch sizing.
+
+The assistant can continue bounded searches for original records, analyze public engineering references, execute existing software experiments, regenerate diagrams, and prepare application materials from supported facts. Owner-dependent hardware details remain a future enhancement.
 
 ## Coverage and next evidence
 

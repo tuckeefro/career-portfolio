@@ -16,6 +16,7 @@ from PIL import Image
 from supplemental_figures import build_figures
 from career_sheets import build_case_sheets
 from career_pdf import build_pdf_exports
+from air_storage_figures import build_figures as build_air_figures, build_study_pdf
 from lavatune_benchmark_figure import build_figure as build_lavatune_figure
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -103,6 +104,11 @@ for relative, content in build_case_sheets(ROOT).items():
     generated.write_text(content, encoding="utf-8")
     generated_sources[ROOT / relative] = generated
 
+for relative, content in build_air_figures(ROOT).items():
+    generated = args.output / Path(relative).name
+    generated.write_text(content, encoding="utf-8")
+    generated_sources[ROOT / relative] = generated
+
 for retained, generated in generated_sources.items():
     if args.check and (not retained.exists() or retained.read_bytes() != generated.read_bytes()):
         raise SystemExit(f"STALE_SVG {retained.relative_to(ROOT)}: regenerate with --write-assets")
@@ -137,7 +143,9 @@ for figure in sorted((ROOT / "artifacts").rglob("*.svg")):
         emit("PREVIEW", relative, png_path.read_bytes())
         emit("PHONE", relative, phone_path.read_bytes())
 
-for relative, content in build_pdf_exports(ROOT, generated_sources).items():
+pdf_exports = build_pdf_exports(ROOT, generated_sources)
+pdf_exports.update(build_study_pdf(ROOT, generated_sources))
+for relative, content in pdf_exports.items():
     generated_pdf = args.output / Path(relative).name
     generated_pdf.write_bytes(content)
     retained_pdf = ROOT / relative
@@ -150,7 +158,7 @@ for relative, content in build_pdf_exports(ROOT, generated_sources).items():
         emit("PDF", relative, content)
 
 if args.check:
-    print("Verified generated SVGs, all PNG pixels, and case-sheet PDF bytes against fresh exports.")
+    print("Verified generated SVGs, all PNG pixels, and all retained PDF bytes against fresh exports.")
 
 if args.emit_preview_data:
     for retained, generated in generated_sources.items():

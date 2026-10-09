@@ -64,6 +64,12 @@ Generated from retained synthetic inputs and actual normalized scheduler output.
 
 </details>
 
+## Current engineering analysis
+
+[Compressed-air storage study](artifacts/air-storage-study/README.md) · [Three-page analysis PDF](artifacts/air-storage-study/air-storage-analysis.pdf)
+
+Three calculated figures examine usable buffer time, required storage, and pressure recovery. Inputs, equations, data tables, and mathematical checks are retained. This is a current AI-assisted analysis with illustrative inputs, linked to the production-air case.
+
 ## Additional work
 
 VanaHR, Argus Audit, ShiftForge, and Lavatune were implemented by AI coding agents under my direction.

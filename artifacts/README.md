@@ -100,6 +100,12 @@ Measured offline on one shared GitHub runner with the original pinned benchmark.
 
 </details>
 
+## Quantitative engineering supplement
+
+[Compressed-air storage analysis](air-storage-study/README.md) · [Printable PDF](air-storage-study/air-storage-analysis.pdf)
+
+Three generated figures show buffer time, required total storage, and a demand/pressure/recovery timeline. The calculation uses retained illustrative inputs and the DOE inventory method. Raw tables and mathematical checks accompany the figures. It is current analysis, separate from historical project results.
+
 ## Project records
 
 | Work | Inspect |
