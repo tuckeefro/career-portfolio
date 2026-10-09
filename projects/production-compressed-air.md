@@ -21,6 +21,8 @@ The facility started as a building without the infrastructure needed to run the 
 
 **Operating without another receiver.** The supply kept up with the first line without purchasing an additional air receiver. I accepted a higher compressor duty cycle as part of that choice.
 
+[Printable air-supply case sheet](../artifacts/career-sheets/01-air.pdf) · [Case-sheet preview and packet](../artifacts/career-sheets/README.md)
+
 ## Supporting decision figure
 
 ![Compressed-air supply with an operating first line and dashed planned second-line branch](../artifacts/production-compressed-air/compressed-air-decisions.svg)

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate, update, or check the SVG and PNG portfolio figures."""
+"""Generate, update, or check portfolio SVG, PNG, and career-sheet PDF exports."""
 from __future__ import annotations
 
 import argparse
@@ -14,6 +14,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
 from supplemental_figures import build_figures
+from career_sheets import build_case_sheets
+from career_pdf import build_pdf_exports
 from lavatune_benchmark_figure import build_figure as build_lavatune_figure
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,8 +23,8 @@ TRANSIT = ROOT / "artifacts" / "colorado-transit-award-service"
 parser = argparse.ArgumentParser()
 parser.add_argument("--output", type=Path, default=ROOT / ".tmp" / "portfolio-rendered")
 mode = parser.add_mutually_exclusive_group()
-mode.add_argument("--check", action="store_true", help="Fail when committed SVG or PNG assets differ from the generated figures")
-mode.add_argument("--write-assets", action="store_true", help="Update generated SVGs and PNGs beside all source figures")
+mode.add_argument("--check", action="store_true", help="Fail when retained SVG, PNG, or PDF assets differ from fresh exports")
+mode.add_argument("--write-assets", action="store_true", help="Update generated SVG, PNG, and PDF assets beside their source records")
 parser.add_argument("--emit-preview-data", action="store_true")
 parser.add_argument("--preview-path", action="append", default=[], help="Limit inline previews to these repository SVG paths")
 args = parser.parse_args()
@@ -96,6 +98,11 @@ lavatune_generated = args.output / "renderer-comparison.svg"
 lavatune_generated.write_text(build_lavatune_figure(ROOT), encoding="utf-8")
 generated_sources[ROOT / lavatune_relative] = lavatune_generated
 
+for relative, content in build_case_sheets(ROOT).items():
+    generated = args.output / Path(relative).name
+    generated.write_text(content, encoding="utf-8")
+    generated_sources[ROOT / relative] = generated
+
 for retained, generated in generated_sources.items():
     if args.check and (not retained.exists() or retained.read_bytes() != generated.read_bytes()):
         raise SystemExit(f"STALE_SVG {retained.relative_to(ROOT)}: regenerate with --write-assets")
@@ -130,8 +137,20 @@ for figure in sorted((ROOT / "artifacts").rglob("*.svg")):
         emit("PREVIEW", relative, png_path.read_bytes())
         emit("PHONE", relative, phone_path.read_bytes())
 
+for relative, content in build_pdf_exports(ROOT, generated_sources).items():
+    generated_pdf = args.output / Path(relative).name
+    generated_pdf.write_bytes(content)
+    retained_pdf = ROOT / relative
+    if args.check and (not retained_pdf.exists() or retained_pdf.read_bytes() != content):
+        raise SystemExit(f"STALE_PDF {relative}: regenerate with --write-assets")
+    if args.write_assets:
+        retained_pdf.write_bytes(content)
+    print(f"Exported {relative}")
+    if args.emit_preview_data:
+        emit("PDF", relative, content)
+
 if args.check:
-    print("Verified generated SVGs and all PNG pixels against fresh renders.")
+    print("Verified generated SVGs, all PNG pixels, and case-sheet PDF bytes against fresh exports.")
 
 if args.emit_preview_data:
     for retained, generated in generated_sources.items():

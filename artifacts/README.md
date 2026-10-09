@@ -1,5 +1,13 @@
 # Supporting work records
 
+## Engineering work-sample packet
+
+[Four-page PDF](career-sheets/engineering-portfolio.pdf) · [Illustrated pages and individual downloads](career-sheets/README.md)
+
+Three paid-work cases show contribution, technical relationships, decisions, and reported results. The cover page connects them to my wider mechanical and practical experience. Each case preserves the distinction between a functional reconstruction and an original hardware record.
+
+[Application bullets and interview stories](../docs/CAREER_PLAYBOOK.md).
+
 ## Technical figures
 
 Open a preview to inspect the figure. Each case links to its underlying account or data and both export formats.

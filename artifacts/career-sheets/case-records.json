@@ -1,0 +1,122 @@
+{
+  "format": "career-portfolio-engineering-cases-v1",
+  "overview": {
+    "title": [
+      "Tucker Vana",
+      "Engineering case packet"
+    ],
+    "positioning": "Mechanical engineering, manufacturing, equipment integration, and troubleshooting.",
+    "introduction": "My work combines technical planning with hands-on setup, operation, and repair. These cases show specific decisions and my contribution.",
+    "education": "B.S. Mechanical Engineering, Colorado School of Mines, December 2021. Cum laude; 3.65 GPA.",
+    "practical": "Earlier practical work: truck driving, forklift/skid-steer operation, material handling, and yard work at DBC Irrigation Supply.",
+    "source": "EXPERIENCE.md"
+  },
+  "cases": [
+    {
+      "id": "air",
+      "number": "01",
+      "employer": "Pouch Factory",
+      "domain": "Manufacturing and equipment integration",
+      "title": [
+        "Supply the first line.",
+        "Allow for expansion."
+      ],
+      "contribution": "I sized the air supply from machine requirements, selected the rented package, and integrated filtration and distribution.",
+      "result": "First line supplied",
+      "result_scope": "Break-in and initial production run · reported in my account",
+      "summary": "Air supply selected for initial production, with allowance for a planned second line and a constrained startup budget.",
+      "diagram_heading": "Functional air-supply arrangement",
+      "decisions": [
+        [
+          "Demand",
+          "Peak machine demand + planned second-line allowance + headroom."
+        ],
+        [
+          "Budget",
+          "Rented the package for lower initial expenditure than purchase options."
+        ],
+        [
+          "Receiver",
+          "No additional receiver purchase; higher compressor duty cycle accepted."
+        ]
+      ],
+      "scope": "Functional reconstruction from my account. Capacity figures and physical pipe routing are unspecified.",
+      "source": "projects/production-compressed-air.md",
+      "related_source": "projects/production-startup.md",
+      "source_excerpts": [
+        "I sized the supply around anticipated demand from two production lines, with additional headroom.",
+        "During equipment break-in and the initial production run, the air supply kept up with the first line.",
+        "I accepted a higher compressor duty cycle as part of that choice."
+      ]
+    },
+    {
+      "id": "waterjet",
+      "number": "02",
+      "employer": "Fabrication / CNC",
+      "domain": "Equipment troubleshooting and repair",
+      "title": [
+        "Investigate the cut fault.",
+        "Rebuild and restart."
+      ],
+      "contribution": "I inspected the high-pressure pump, performed its scheduled rebuild, reassembled it, and checked the machine after repair.",
+      "result": "3 working days",
+      "result_scope": "Shutdown to production restart · reported in my account",
+      "summary": "An intermittent cutting fault led to pump inspection, a standard scheduled rebuild, and resumed production.",
+      "diagram_heading": "Reported cutting pattern and supply path",
+      "decisions": [
+        [
+          "Finding",
+          "More mechanical play than expected in the pump cylinder assemblies."
+        ],
+        [
+          "Action",
+          "Standard 5,000-hour rebuild kit, reassembly, and machine checks."
+        ],
+        [
+          "Checks",
+          "Consistent through-cuts returned; pump output readings were higher."
+        ]
+      ],
+      "scope": "Qualitative reconstruction. The exact failed component, pump model, and numerical pressure readings are not retained.",
+      "source": "projects/fabrication-cnc.md",
+      "source_excerpts": [
+        "more mechanical play than expected in its cylinder assemblies",
+        "Three working days elapsed between shutting the machine down and restarting production.",
+        "standard rebuild kit"
+      ]
+    },
+    {
+      "id": "maybell",
+      "number": "03",
+      "employer": "Maybell Quantum",
+      "domain": "Instrumentation and operator controls",
+      "title": [
+        "Bring readouts together.",
+        "Give operators control."
+      ],
+      "contribution": "I set up and wired the Lake Shore 372, integrated its readout through a LattePanda, and combined readings and valve controls in one GUI.",
+      "result": "One operator interface",
+      "result_scope": "System readouts and pneumatic-valve commands · project account",
+      "summary": "Instrument readout integration and gas-valve controls shared a GUI for the team's refrigeration prototype.",
+      "diagram_heading": "Measurement and operator-command paths",
+      "decisions": [
+        [
+          "My part",
+          "Instrument setup and wiring, readout integration, and GUI/control connections."
+        ],
+        [
+          "Related work",
+          "Connector trials; CNC-welder jogging integration. Setup lacked required precision."
+        ]
+      ],
+      "scope": "Functional reconstruction. Acquisition protocols, valve-driver electronics, timing, and accuracy are unspecified.",
+      "source": "projects/cryogenic-hardware.md",
+      "public_record": "https://meetings-archive.aps.org/mar/2023/q72/5/",
+      "source_excerpts": [
+        "I set up and wired a Lake Shore Model 372 instrument",
+        "It also let operators control pneumatic valves in the gas-handling system.",
+        "The trials showed that the available setup lacked the precision needed"
+      ]
+    }
+  ]
+}
