@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1300" viewBox="0 0 1080 1300" role="img" aria-labelledby="title desc">
+<title id="title">RTD route identity: Route 21 split and LD3 rename</title>
+<desc id="desc">The prior Route 21 split into an East Evans segment retaining Route 21 and a western segment labeled Route 22. LD3 was renamed Route 287. This figure follows the retained official-source crosswalk, and shows identity links rather than mapped route geometry, delivered service, or an added-route total.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1764C0"/></marker></defs>
+<rect width="1080" height="1300" fill="white"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="112" font-size="56" font-weight="bold" fill="#142434" text-anchor="start">Route labels change.</text>
+<text x="60" y="180" font-size="56" font-weight="bold" fill="#142434" text-anchor="start">Keep the service linked.</text>
+<text x="60" y="244" font-size="32" font-weight="normal" fill="#617285" text-anchor="start">RTD · June 2026 route identity changes</text>
+<text x="70" y="326" font-size="30" font-weight="bold" fill="#617285" text-anchor="start">01 / ROUTE SPLIT</text>
+<text x="70" y="382" font-size="28" font-weight="normal" fill="#617285" text-anchor="start">Before</text>
+<text x="645" y="382" font-size="28" font-weight="normal" fill="#617285" text-anchor="start">After</text>
+<rect x="70" y="440" width="320" height="180" rx="12" fill="#F3F6F9" stroke="#D8E0E8" stroke-width="2"/>
+<text x="98" y="510" font-size="44" font-weight="bold" fill="#142434" text-anchor="start">Route 21</text>
+<text x="98" y="558" font-size="27" font-weight="normal" fill="#617285" text-anchor="start">Combined route</text>
+<rect x="645" y="408" width="365" height="138" rx="12" fill="#EAF3FF" stroke="#1764C0" stroke-width="2"/>
+<text x="671" y="463" font-size="40" font-weight="bold" fill="#1764C0" text-anchor="start">Route 21</text>
+<text x="671" y="509" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">East Evans segment</text>
+<rect x="645" y="598" width="365" height="138" rx="12" fill="#EAF3FF" stroke="#1764C0" stroke-width="2"/>
+<text x="671" y="653" font-size="40" font-weight="bold" fill="#1764C0" text-anchor="start">Route 22</text>
+<text x="671" y="699" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">Western segment</text>
+<path d="M390 530 H510 V477 H635" fill="none" stroke="#1764C0" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M510 530 V667 H635" fill="none" stroke="#1764C0" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="70" y="777" width="940" height="103" rx="12" fill="#F3F6F9" stroke="#D8E0E8" stroke-width="2"/>
+<text x="96" y="818" font-size="31" font-weight="bold" fill="#142434" text-anchor="start">Compare the same segment and service period.</text>
+<text x="96" y="856" font-size="27" font-weight="normal" fill="#617285" text-anchor="start">A new label alone does not establish added corridor service.</text>
+<text x="70" y="950" font-size="30" font-weight="bold" fill="#617285" text-anchor="start">02 / ROUTE RENAME</text>
+<rect x="70" y="990" width="320" height="148" rx="12" fill="#F3F6F9" stroke="#D8E0E8" stroke-width="2"/>
+<text x="98" y="1050" font-size="44" font-weight="bold" fill="#142434" text-anchor="start">LD3</text>
+<text x="98" y="1099" font-size="28" font-weight="normal" fill="#617285" text-anchor="start">Previous label</text>
+<rect x="645" y="990" width="365" height="148" rx="12" fill="#EAF3FF" stroke="#1764C0" stroke-width="2"/>
+<text x="671" y="1050" font-size="40" font-weight="bold" fill="#1764C0" text-anchor="start">Route 287</text>
+<text x="671" y="1099" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">Formerly LD3</text>
+<path d="M390 1064 H635" fill="none" stroke="#1764C0" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="60" y="1214" font-size="25" font-weight="normal" fill="#617285" text-anchor="start">Source: RTD final June changes · crosswalk rows 21, 22, 287</text>
+<text x="60" y="1253" font-size="26" font-weight="normal" fill="#617285" text-anchor="start">Arrows show route identity; this is not a geographic map.</text>
+</g>
+</svg>

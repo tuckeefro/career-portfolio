@@ -1,6 +1,6 @@
 # Portfolio evidence map
 
-Working review prepared October 7, 2026, from repository main commit `78461bf1887f522c9061b06e2c48ddc909f7a21e`. This document tracks what can be produced from existing material and which input depends on Tucker's firsthand knowledge.
+Working review prepared October 7, 2026, from repository main commit `78461bf1887f522c9061b06e2c48ddc909f7a21e`. This document tracks what can be produced from existing material and which input depends on Tucker's firsthand knowledge. Figure and execution coverage was updated October 8, 2026.
 
 ## Work split
 
@@ -10,23 +10,23 @@ Tucker supplies or corrects the firsthand facts: personal contribution, equipmen
 
 ## Completed supporting records
 
-The branch now includes four physical-work SVG figures, software supporting records, an executed ShiftForge fixture with 12 passed scheduler assertions, and a transit-frequency rendering workflow. [Supporting index](../artifacts/README.md) · [Source review](SOURCE_REVIEW.md).
+The repository includes four physical-work figures, two transit figures, and a ShiftForge constraint matrix generated from the retained synthetic inputs and actual normalized output. The software supporting records and the retained ShiftForge run with 12 passed scheduler assertions remain available. The rendering workflow checks generated SVGs and retained PNG exports. [Supporting index](../artifacts/README.md) · [Source review](SOURCE_REVIEW.md).
 
 ## Current priority
 
-1. Compressed air: the draft decision figure is ready for factual review. Next evidence to locate is the airflow worksheet or machine demand sheet.
-2. Waterjet repair: the draft repair sequence is ready for factual review. Next evidence to locate is one original repair or cut-sample photo.
-3. Maybell: the new measurement/control figure is ready for factual review. Next evidence to locate is one publishable GUI screenshot, wiring note, or setup photo.
+1. Compressed air: locate the airflow worksheet or machine demand sheet to make the sizing calculation inspectable.
+2. Waterjet repair: locate one original repair or cut-sample photo to support the reconstructed sequence.
+3. Maybell: locate one publishable GUI screenshot, wiring note, or setup photo to add physical detail.
 
 ## Coverage and next evidence
 
 | Work | Available in the portfolio | Assistant can produce next | Smallest useful owner input |
 |---|---|---|---|
 | Pouch Factory buildout | Startup account covering layout, utilities, documents, operation, and training | Annotated layout or installation sequence once source material is found | One layout/build photo or the location of the working files |
-| Pouch Factory compressed air | Decision account and functional diagram; new draft supporting figure | Source-linked sizing record after locating the inputs | Airflow calculation or machine demand sheet; recollection is acceptable when labeled |
+| Pouch Factory compressed air | Decision account and supporting figure | Source-linked sizing record after locating the inputs | Airflow calculation or machine demand sheet; recollection is acceptable when labeled |
 | Maybell instrumentation | Lake Shore/LattePanda/GUI/valve account and functional diagram | Diagram separating measurement, operator command, and equipment state | One screenshot or wiring note; corrections to the signal paths |
 | Maybell manufacturing trials | Connector and CNC-welding trial accounts; linked public APS record | Trial summary and annotated setup from publishable material | What Tucker modified and how insufficient precision was recognized |
-| Waterjet repair | Symptom, inspection, rebuild, and restart account; new draft repair figure | Captioned repair sequence and retained verification record | One repair/cut photo, or pump model and approximate dates |
+| Waterjet repair | Symptom, inspection, rebuild, and restart account; repair figure | Captioned repair sequence and retained verification record | One repair/cut photo, or pump model and approximate dates |
 | Raw Creative | Employer identified in fabrication experience; no distinct artifact included | Separate fabrication example | One actual item and Tucker's design, fabrication, or installation contribution |
 | Tension Climbing | Employer identified in fabrication experience; no distinct artifact included | Separate job example | One actual task and Tucker's contribution |
 | DBC Irrigation Supply | Truck driving, forklift/skid-steer, material handling, and yard work listed | Short operational example connecting equipment, people, and materials | One specific work example and its practical constraint |
@@ -34,10 +34,10 @@ The branch now includes four physical-work SVG figures, software supporting reco
 | Mobile RV power | Installation/troubleshooting account and SCAMP monitor photograph | Annotated circuit diagram after confirming topology | Wiring/manual location or confirmation of component connections |
 | VanaHR | Recovery requirement and owner-reported production validation | Recovery procedure and timing summary from accessible retained records | Dated validation record or correction of what was checked |
 | Argus Audit | Prototype and deletion-boundary account | Demonstration and test-result summary from accessible source | Actual device-run result for any readiness claim |
-| ShiftForge | Scheduling constraints and integration account | Example inputs, resulting schedule, and uncovered coverage from accessible source | Representative rules or recorded run |
+| ShiftForge | Scheduling account; retained synthetic inputs/output, constraint matrix, and 12 passed scheduler assertions | A further representative example once its rules and output are retained | Representative rules or a separately recorded run |
 | Lavatune | Public source, merged change, and linked checks | Captioned change example and runtime demonstration | Confirmation of the intended live audio route; a recording if local execution is unavailable |
 | CodexDeck | Rebuild-kit account | Procedure and verification summary from accessible source | Retained restoration run for a successful-rebuild claim |
-| Colorado research | Transit case study, route CSV, checking script, and dashboard observation | Source-linked service-frequency chart and explanatory caption | Clarification only if the retained source leaves a substantive ambiguity |
+| Colorado research | Transit case study, route CSV, frequency chart, split/rename diagram, checking script, and dashboard observation | Geography-and-period comparison once suitable retained source material is available | Clarification only if the retained source leaves a substantive ambiguity |
 
 ## Review in small passes
 
