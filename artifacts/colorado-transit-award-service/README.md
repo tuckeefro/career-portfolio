@@ -50,3 +50,7 @@ The sources do not allocate the aggregate award among routes. They do not establ
 ## Supporting frequency figure
 
 [Compare the three directly measurable scheduled-frequency changes](frequency-comparison.md). The figure uses the retained crosswalk and preserves the service-period and measurement limits.
+
+## Supporting route identity figure
+
+[Follow the Route 21 split and LD3-to-287 rename](route-identity.md). The drawing preserves identity links from the retained crosswalk; it does not substitute labels for matching route geography and service periods.

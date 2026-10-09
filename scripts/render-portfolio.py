@@ -13,6 +13,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
+from supplemental_figures import build_figures
 
 ROOT = Path(__file__).resolve().parents[1]
 TRANSIT = ROOT / "artifacts" / "colorado-transit-award-service"
@@ -20,7 +21,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--output", type=Path, default=ROOT / ".tmp" / "portfolio-rendered")
 mode = parser.add_mutually_exclusive_group()
 mode.add_argument("--check", action="store_true", help="Fail when committed SVG or PNG assets differ from the generated figures")
-mode.add_argument("--write-assets", action="store_true", help="Update the generated transit SVG and PNGs beside all source figures")
+mode.add_argument("--write-assets", action="store_true", help="Update generated SVGs and PNGs beside all source figures")
 parser.add_argument("--emit-preview-data", action="store_true")
 parser.add_argument("--preview-path", action="append", default=[], help="Limit inline previews to these repository SVG paths")
 args = parser.parse_args()
@@ -83,10 +84,17 @@ generated_chart = args.output / "scheduled-frequency.svg"
 fig.savefig(generated_chart, format="svg", metadata={"Date": None})
 plt.close(fig)
 
-if args.check and (not chart.exists() or chart.read_bytes() != generated_chart.read_bytes()):
-    raise SystemExit("STALE_SVG artifacts/colorado-transit-award-service/scheduled-frequency.svg: regenerate with --write-assets")
-if args.write_assets:
-    chart.write_bytes(generated_chart.read_bytes())
+generated_sources = {chart: generated_chart}
+for relative, content in build_figures(ROOT).items():
+    generated = args.output / Path(relative).name
+    generated.write_text(content, encoding="utf-8")
+    generated_sources[ROOT / relative] = generated
+
+for retained, generated in generated_sources.items():
+    if args.check and (not retained.exists() or retained.read_bytes() != generated.read_bytes()):
+        raise SystemExit(f"STALE_SVG {retained.relative_to(ROOT)}: regenerate with --write-assets")
+    if args.write_assets:
+        retained.write_bytes(generated.read_bytes())
 
 def emit(kind: str, relative: str, content: bytes) -> None:
     encoded = base64.b64encode(content).decode("ascii")
@@ -99,7 +107,7 @@ for figure in sorted((ROOT / "artifacts").rglob("*.svg")):
     relative = figure.relative_to(ROOT).as_posix()
     png_path = args.output / (figure.stem + ".png")
     phone_path = args.output / (figure.stem + "-phone.png")
-    render_source = generated_chart if figure == chart else figure
+    render_source = generated_sources.get(figure, figure)
     cairosvg.svg2png(url=str(render_source), write_to=str(png_path), output_width=1440)
     cairosvg.svg2png(url=str(render_source), write_to=str(phone_path), output_width=375)
     retained_png = figure.with_suffix(".png")
@@ -117,7 +125,8 @@ for figure in sorted((ROOT / "artifacts").rglob("*.svg")):
         emit("PHONE", relative, phone_path.read_bytes())
 
 if args.check:
-    print("Verified committed transit SVG and all PNG pixels against fresh renders.")
+    print("Verified generated SVGs and all PNG pixels against fresh renders.")
 
 if args.emit_preview_data:
-    emit("SVG", "artifacts/colorado-transit-award-service/scheduled-frequency.svg", generated_chart.read_bytes())
+    for retained, generated in generated_sources.items():
+        emit("SVG", retained.relative_to(ROOT).as_posix(), generated.read_bytes())

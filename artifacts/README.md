@@ -59,6 +59,28 @@ Calculated from the retained public-source crosswalk; the rates describe announc
 
 </details>
 
+<details>
+<summary>ShiftForge: show why one seat remains unfilled</summary>
+
+<img src="shiftforge/constraint-matrix.png" width="375" alt="Two-day synthetic scheduling matrix with assigned workers, rest and PTO exclusions, and an explicit shortage" />
+
+Generated from the retained synthetic fixture and actual normalized scheduler output. It describes an algorithm example, not a deployed staffing result.
+
+[Supporting record](shiftforge/README.md) · [PNG](shiftforge/constraint-matrix.png) · [SVG](shiftforge/constraint-matrix.svg)
+
+</details>
+
+<details>
+<summary>Transit: preserve route identity through a split and rename</summary>
+
+<img src="colorado-transit-award-service/route-identity.png" width="375" alt="Former Route 21 splits into east Route 21 and west Route 22; LD3 becomes Route 287" />
+
+Generated from the retained official-source crosswalk. Arrows show identity links; the drawing does not show geographic route geometry.
+
+[Supporting record](colorado-transit-award-service/route-identity.md) · [PNG](colorado-transit-award-service/route-identity.png) · [SVG](colorado-transit-award-service/route-identity.svg)
+
+</details>
+
 ## Project records
 
 | Work | Inspect |
@@ -69,10 +91,10 @@ Calculated from the retained public-source crosswalk; the rates describe announc
 | SCAMP power | [PV fault-isolation figure and installed monitor photo](mobile-power/README.md) |
 | VanaHR | [Recovery paths and evidence](vanahr/README.md) |
 | Argus Audit | [Review-to-deletion boundary](argus-audit/README.md) |
-| ShiftForge | [Executed synthetic fixture and retained checks](shiftforge/README.md) |
+| ShiftForge | [Constraint matrix, executed synthetic fixture, and retained checks](shiftforge/README.md) |
 | Lavatune | [Capture and resource ownership](lavatune/README.md) |
 | CodexDeck | [Rebuild and acceptance sequence](codexdeck/README.md) |
-| Colorado transit research | [Award/service trace](colorado-transit-award-service/README.md) · [Frequency comparison](colorado-transit-award-service/frequency-comparison.md) |
+| Colorado transit research | [Award/service trace](colorado-transit-award-service/README.md) · [Frequency comparison](colorado-transit-award-service/frequency-comparison.md) · [Route identity](colorado-transit-award-service/route-identity.md) |
 
 Account-based physical diagrams are labeled as reconstructions. Software records distinguish source inspection, synthetic execution, and live operation. The private implementations remain in their original repositories.
 

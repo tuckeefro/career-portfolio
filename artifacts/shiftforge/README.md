@@ -2,6 +2,14 @@
 
 This is a retained execution of the actual scheduler with synthetic inputs. Tucker directed application development through AI coding agents. [Project account](../../projects/shiftforge.md).
 
+## Constraint matrix
+
+![Synthetic assignments and exclusions across March 22 and 23, with one explicitly unfilled seat](constraint-matrix.svg)
+
+[Download the PNG](constraint-matrix.png) · [Download the SVG](constraint-matrix.svg).
+
+The matrix is generated from the retained inputs and actual normalized output. Each exclusion names the applicable rest, PTO, or availability condition. Blue cells show generated assignments, and the coverage row shows filled and unfilled seats. Regenerating the figure reads the retained records; it does not rerun the private scheduler.
+
 ## Inspect the example
 
 One eight-hour morning shift needs two people on each of March 22 and 23, 2026. Three synthetic workers have equal scoring inputs. The configured minimum rest is ten hours.
