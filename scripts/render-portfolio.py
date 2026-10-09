@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the scheduled-frequency chart and export SVG figures for review."""
+"""Generate, update, or check the SVG and PNG portfolio figures."""
 from __future__ import annotations
 
 import argparse
@@ -115,6 +115,9 @@ for figure in sorted((ROOT / "artifacts").rglob("*.svg")):
     if args.emit_preview_data and (not args.preview_path or relative in args.preview_path):
         emit("PREVIEW", relative, png_path.read_bytes())
         emit("PHONE", relative, phone_path.read_bytes())
+
+if args.check:
+    print("Verified committed transit SVG and all PNG pixels against fresh renders.")
 
 if args.emit_preview_data:
     emit("SVG", "artifacts/colorado-transit-award-service/scheduled-frequency.svg", generated_chart.read_bytes())
