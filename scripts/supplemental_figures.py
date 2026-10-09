@@ -208,7 +208,7 @@ def build_transit(root):
         text(645, 382, "After", 28, color=MUTED),
         box(70, 440, 320, 180, "#F3F6F9"),
         text(98, 510, f"Route {east}", 44, "bold"),
-        text(98, 558, "Prior combined route", 27, color=MUTED),
+        text(98, 558, "Combined route", 27, color=MUTED),
         box(645, 408, 365, 138, PALE_BLUE, BLUE),
         text(671, 463, f"Route {east}", 40, "bold", BLUE),
         text(671, 509, "East Evans segment", 28),
