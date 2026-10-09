@@ -1,0 +1,61 @@
+{
+  "shifts": [
+    {
+      "date": "2026-03-22",
+      "shiftType": "Morning",
+      "startTime": "07:00",
+      "endTime": "15:00",
+      "hours": 8,
+      "employeeId": "synthetic-c",
+      "employeeName": "Synthetic C",
+      "autoAssigned": true,
+      "optimizationMode": "balanced",
+      "storeId": null
+    },
+    {
+      "date": "2026-03-23",
+      "shiftType": "Morning",
+      "startTime": "07:00",
+      "endTime": "15:00",
+      "hours": 8,
+      "employeeId": "synthetic-a",
+      "employeeName": "Synthetic A",
+      "autoAssigned": true,
+      "optimizationMode": "balanced",
+      "storeId": null
+    },
+    {
+      "date": "2026-03-23",
+      "shiftType": "Morning",
+      "startTime": "07:00",
+      "endTime": "15:00",
+      "hours": 8,
+      "employeeId": "synthetic-b",
+      "employeeName": "Synthetic B",
+      "autoAssigned": true,
+      "optimizationMode": "balanced",
+      "storeId": null
+    }
+  ],
+  "warnings": [],
+  "unassigned": [
+    {
+      "date": "2026-03-22",
+      "shiftType": "Morning",
+      "storeId": null,
+      "needed": 2,
+      "available": 1,
+      "shortage": 1
+    }
+  ],
+  "compliance": null,
+  "stats": {
+    "totalShifts": 3,
+    "totalHours": 24,
+    "understaffedSlots": 1,
+    "overtimeWarnings": 0,
+    "complianceViolations": 0,
+    "avgHoursPerEmployee": "8.0",
+    "optimizationMode": "balanced"
+  }
+}

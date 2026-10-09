@@ -19,3 +19,9 @@ The work involved pump disassembly, inspection, replacement of the internal comp
 Three working days elapsed between shutting the machine down and restarting production. Consistent through-cutting returned, and pressure readings at the pump output were higher after the rebuild.
 
 This is a practical equipment-repair example: moving from symptoms at the cutting process to the equipment supplying it, then carrying the repair through to resumed operation.
+
+## Supporting repair figure
+
+![Qualitative interrupted-cut pattern, upstream pump inspection, and reported three-day return to production](../artifacts/fabrication-cnc/waterjet-repair-sequence.svg)
+
+Reconstructed from this account. Timing and results are owner-reported; original repair photos and numerical pressure records are not included. [Supporting record and source status](../artifacts/fabrication-cnc/README.md).

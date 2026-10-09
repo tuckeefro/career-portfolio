@@ -46,3 +46,7 @@ The sources do not allocate the aggregate award among routes. They do not establ
 - RTD, [September 9 service-change announcement](https://www.rtd-denver.com/community/news/2026/rtd-service-changes-take-effect-sept): continuing service labels and aggregate grant statement.
 - CDOT, [CTE dashboard page](https://www.codot.gov/programs/innovativemobility/clean-transit-enterprise-dashboard): describes public award, agency, location, amount, and status fields; embedded dashboard records were not newly extracted.
 - CDOT, [CTE 2026 meeting schedule](https://www.codot.gov/programs/innovativemobility/clean-transit-enterprise-meeting-schedule): links September 29 video and board packet; video fetch returned a cache miss and packet remained an OnBase shell.
+
+## Supporting frequency figure
+
+[Compare the three directly measurable scheduled-frequency changes](frequency-comparison.md). The figure uses the retained crosswalk and preserves the service-period and measurement limits.

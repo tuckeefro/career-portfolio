@@ -20,6 +20,12 @@ The direct connection narrowed the fault to the installed wiring and connector p
 
 The van manual records two 100 W Renogy panels, a 280 Ah Eco-Worthy lithium battery, charge control, a main breaker, disconnect, bus bars, and fused DC distribution. Its equipment list includes a refrigerator, lights, ventilation fan, diesel heater, and portable power station. The manual also contains vehicle service specifications, inspection notes, and maintenance photos.
 
+## Supporting fault-isolation figure
+
+![Installed PV path compared with the successful direct-panel test](../artifacts/mobile-power/scamp-pv-fault-isolation.svg)
+
+Reconstructed from the troubleshooting account. [Supporting record](../artifacts/mobile-power/README.md).
+
 ## Hardware
 
 ![Installed Renogy battery monitor in the SCAMP](../artifacts/mobile-power/scamp-battery-monitor.jpg)

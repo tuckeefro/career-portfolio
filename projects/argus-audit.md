@@ -15,3 +15,7 @@ The central problem is keeping a review decision valid when the photo library or
 The project includes regression-test and benchmark tooling.
 
 This is a prototype. Detector accuracy and device-readiness claims need a specific retained result; neither is claimed here. The source repository is private.
+
+## Supporting record
+
+[Review-to-deletion flow and source limits](../artifacts/argus-audit/README.md).

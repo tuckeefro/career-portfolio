@@ -1,0 +1,66 @@
+{
+  "startDate": "2026-03-22",
+  "endDate": "2026-03-23",
+  "employees": [
+    {
+      "id": "synthetic-a",
+      "name": "Synthetic A",
+      "role": "staff",
+      "hourlyRate": 18,
+      "performanceScore": 80
+    },
+    {
+      "id": "synthetic-b",
+      "name": "Synthetic B",
+      "role": "staff",
+      "hourlyRate": 18,
+      "performanceScore": 80
+    },
+    {
+      "id": "synthetic-c",
+      "name": "Synthetic C",
+      "role": "staff",
+      "hourlyRate": 18,
+      "performanceScore": 80
+    }
+  ],
+  "shiftTypes": [
+    {
+      "name": "Morning",
+      "startTime": "07:00",
+      "endTime": "15:00",
+      "hours": 8,
+      "requiredStaff": 2
+    }
+  ],
+  "currentSchedule": [
+    {
+      "id": "synthetic-prior",
+      "date": "2026-03-21",
+      "shiftType": "Close",
+      "employeeId": "synthetic-a",
+      "startTime": "15:00",
+      "endTime": "23:00",
+      "hours": 8
+    }
+  ],
+  "ptoRequests": [
+    {
+      "status": "approved",
+      "employeeId": "synthetic-b",
+      "dateFrom": "2026-03-22",
+      "dateTo": "2026-03-22"
+    }
+  ],
+  "availabilityData": [
+    {
+      "employeeId": "synthetic-c",
+      "date": "2026-03-23",
+      "available": false
+    }
+  ],
+  "maxHoursPerWeek": 40,
+  "minRestHours": 10,
+  "maxConsecutiveDays": 6,
+  "optimizationMode": "balanced"
+}

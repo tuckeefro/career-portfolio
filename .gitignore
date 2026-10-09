@@ -6,3 +6,6 @@ source-manifest.json
 *.pages
 *.numbers
 *.zip
+/.venv/
+/.tmp/
+__pycache__/

@@ -22,3 +22,7 @@ The engineering contribution was defining a recovery requirement and checking th
 - Application tests and launch checks recorded in the repository.
 
 The application uses a TypeScript backend and React/Next.js frontend with a PostgreSQL data layer. The source repository is private.
+
+## Supporting record
+
+[Recovery paths, targets, and retained evidence](../artifacts/vanahr/README.md).
