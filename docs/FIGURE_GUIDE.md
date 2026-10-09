@@ -1,6 +1,6 @@
 # What the figures show
 
-The physical-work figures are functional reconstructions of the project accounts. They show the decisions and relationships described there. The transit figures are generated from a retained public-source table. The ShiftForge matrix is generated from retained synthetic inputs and actual normalized scheduler output. Downloadable PNGs accompany the SVGs; the rendering workflow also produces 375-pixel previews for phone-width review.
+The physical-work figures are functional reconstructions of the project accounts. They show the decisions and relationships described there. The transit figures are generated from a retained public-source table. The ShiftForge matrix is generated from retained synthetic inputs and actual normalized scheduler output. The Lavatune chart shows repeated renderer measurements from a retained execution record. Downloadable PNGs accompany the SVGs; the rendering workflow also produces 375-pixel previews for phone-width review.
 
 | Figure | Technical question it explains | Basis | Next original artifact that would strengthen it |
 |---|---|---|---|
@@ -11,6 +11,7 @@ The physical-work figures are functional reconstructions of the project accounts
 | [Transit frequency](../artifacts/colorado-transit-award-service/frequency-comparison.md) | How much did announced frequency change where both headways are known? | Retained crosswalk, official source descriptions, and reproducible arithmetic | A retained schedule extract would strengthen source inspection; delivered-service evaluation requires different data |
 | [ShiftForge](../artifacts/shiftforge/README.md) | Which workers were excluded, who was assigned, and where did a required seat remain unfilled? | Retained synthetic inputs and actual normalized scheduler output; rest, PTO, and availability shown explicitly | A separately retained representative run would extend coverage; this example does not establish deployed staffing or compliance |
 | [Transit identity](../artifacts/colorado-transit-award-service/route-identity.md) | How do a route split and a renamed identifier affect before/after comparisons? | Retained crosswalk rows 21, 22, and 287; official final-service descriptions | Route geometry and schedule extracts would support a geography-and-period comparison |
+| [Lavatune renderer](../artifacts/lavatune/README.md) | How much time do two implemented Fluid paths spend on the same configured synthetic workload? | Five executions of the original pinned benchmark on one runner; raw measurements and environment retained | A separate live-terminal or power study would answer display-cost or energy questions |
 
 ## Reading the graphics
 
@@ -28,13 +29,29 @@ The ShiftForge cells combine retained assignments with explicit fixture constrai
 
 The transit identity arrows describe the old Route 21 splitting into eastern Route 21 and western Route 22, and LD3 being renamed Route 287. Route labels alone cannot identify comparable geography, additional corridor service, or delivered service.
 
+The Lavatune bars show median milliseconds per simulated frame, with all five runs and their observed min–max ranges. The paired ratio compares scalar-field and contour costs within each original script invocation. These are body-simulation and material-generation timings; live audio and terminal presentation are outside the measured scope. Host conditions and source revision are retained with the raw results.
+
 ## To strengthen a case
 
 Retain the original artifact, identify its date and operating conditions where known, mark the relevant feature, and explain the decision it supported. Keep recalled facts labeled as recollection. A repair photo, worksheet, or screenshot can be redacted when needed while preserving the technical relationship a reader needs to inspect.
 
+### Prioritize inspectable physical work
+
+A strong case figure pairs an annotated hardware or CAD view with the critical constraint, the resulting decision, and the check used to assess it. Build one complete case from the best available original material.
+
+| Case | Figure with technical substance | Smallest useful source |
+|---|---|---|
+| Pouch Factory air supply | Demand breakdown and selected capacity at the required pressure, linked to the actual supply arrangement | Machine requirement sheet, sizing worksheet, or confirmed equipment nameplate and demand inputs |
+| Pouch Factory layout | Actual equipment and material flow with the service-access or utility constraint marked | Layout drawing or photographs sufficient to confirm placement and connections |
+| Maybell manufacturing trial | Fixture/welder/CNC detail showing the modification, required alignment, and observed precision limit | Publishable setup view or sketch plus the criterion used to recognize insufficient precision |
+| SCAMP or Sprinter power | Confirmed power and protection schematic with cable lengths/gauges, fuse ratings, shunt return path, and a worked voltage-drop check | Actual topology and component/cable details; treat each vehicle separately |
+| Fabrication or Mines capstone | Drawing of one personally designed part or assembly with critical dimensions, material/fit choices, and its manufacturing or test check | Original drawing/report or enough confirmed detail to reconstruct the specific contribution |
+
+Recalled geometry or operating observations can be used when labeled. A new engineering calculation or bench study can also be published as current work with explicit inputs, assumptions, method, and results, without presenting it as a historical project record.
+
 ## Regenerate and check the exports
 
-The source SVGs live beside their supporting records. The frequency chart, route identity drawing, and ShiftForge matrix are generated from retained records. [The supplemental generator](../scripts/supplemental_figures.py) derives the matrix and route links and checks their source relationships. Regeneration writes a PNG beside every source figure; checking compares generated SVGs and all retained PNG pixels with fresh renders.
+The source SVGs live beside their supporting records. The frequency chart, route identity drawing, ShiftForge matrix, and Lavatune benchmark chart are generated from retained records. [The supplemental generator](../scripts/supplemental_figures.py) derives the matrix and route links and checks their source relationships. Regeneration writes a PNG beside every source figure; checking compares generated SVGs and all retained PNG pixels with fresh renders.
 
 ```bash
 python3 -m venv .venv

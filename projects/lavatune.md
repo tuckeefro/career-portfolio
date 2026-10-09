@@ -36,4 +36,8 @@ The public repository contains the implementation and usage instructions. The RE
 
 ## Supporting record
 
-[Capture and resource-ownership diagram](../artifacts/lavatune/README.md).
+[Measured renderer comparison and capture/resource-ownership diagram](../artifacts/lavatune/README.md).
+
+![Repeated renderer measurements with individual runs and observed ranges](../artifacts/lavatune/renderer-comparison.svg)
+
+The chart compares two complete Fluid paths using the original pinned benchmark and retained results. [Inspect the method, source, raw measurements, and scope](../artifacts/lavatune/README.md).
