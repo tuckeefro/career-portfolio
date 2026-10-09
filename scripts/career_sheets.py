@@ -121,8 +121,8 @@ def air(case):
         path("M582 660 H716"),
         path("M646 660 V903 H716", MUTED, True, False),
         f'<circle cx="646" cy="660" r="6" fill="{BLUE}"/>',
-        text(646, 779, "Planned", 24, color=MUTED, anchor="middle"),
-        text(646, 811, "demand", 24, color=MUTED, anchor="middle"),
+        text(625, 779, "Planned", 24, color=MUTED, anchor="end"),
+        text(625, 811, "demand", 24, color=MUTED, anchor="end"),
     ]
     e += paragraph(60, 1029, "Solid path: operated first-line load. Dashed path: expansion allowance.", 960, 25, 32, MUTED, max_lines=1)
     e += decisions(case, 1094)
@@ -142,7 +142,7 @@ def waterjet(case):
         text(530, 803, "~1 inch travel", 25, color=AMBER, anchor="middle"),
         text(858, 769, "Through-cut", 28, "bold", BLUE, "middle"),
         box(60, 851, 346, 151, PALE),
-        text(233, 908, "High-pressure pump", 29, "bold", anchor="middle"),
+        text(233, 908, "High-pressure pump", 27, "bold", anchor="middle"),
         text(233, 957, "Inspected and rebuilt", 25, anchor="middle"),
         box(738, 851, 282, 151, "#EAF3FF", BLUE),
         text(879, 915, "Cutting process", 29, "bold", BLUE, "middle"),
@@ -182,10 +182,10 @@ def maybell(case):
         text(897, 1111, "gas valves", 27, "bold", AMBER, "middle"),
         path("M604 1024 V954", AMBER),
         path("M897 944 V1014", AMBER),
-        text(60, 1179, "Blue: readouts", 25, "bold", BLUE),
-        text(488, 1179, "Orange: operator commands", 25, "bold", AMBER),
+        text(60, 1164, "Blue: readouts", 25, "bold", BLUE),
+        text(488, 1164, "Orange: operator commands", 25, "bold", AMBER),
     ]
-    e += decisions(case, 1230, 77)
+    e += decisions(case, 1210, 77)
     e += footer(case["source"], case["scope"])
     return svg("Maybell instrumentation and operator-control engineering case", case["summary"] + " " + case["scope"], e)
 
