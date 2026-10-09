@@ -10,7 +10,7 @@ Tucker supplies or corrects the firsthand facts: personal contribution, equipmen
 
 ## Completed supporting records
 
-The repository includes four physical-work figures, two transit figures, and a ShiftForge constraint matrix generated from the retained synthetic inputs and actual normalized output. The software supporting records and the retained ShiftForge run with 12 passed scheduler assertions remain available. The rendering workflow checks generated SVGs and retained PNG exports. [Supporting index](../artifacts/README.md) · [Source review](SOURCE_REVIEW.md).
+The repository includes four physical-work figures, two transit figures, and a ShiftForge constraint matrix generated from the retained synthetic inputs and actual normalized output. A measured Lavatune renderer figure adds five executions of the original public benchmark, with raw results and host conditions retained. The software supporting records and the retained ShiftForge run with 12 passed scheduler assertions remain available. The rendering workflow checks generated SVGs and retained PNG exports. [Supporting index](../artifacts/README.md) · [Source review](SOURCE_REVIEW.md).
 
 ## Current priority
 
@@ -35,7 +35,7 @@ The repository includes four physical-work figures, two transit figures, and a S
 | VanaHR | Recovery requirement and owner-reported production validation | Recovery procedure and timing summary from accessible retained records | Dated validation record or correction of what was checked |
 | Argus Audit | Prototype and deletion-boundary account | Demonstration and test-result summary from accessible source | Actual device-run result for any readiness claim |
 | ShiftForge | Scheduling account; retained synthetic inputs/output, constraint matrix, and 12 passed scheduler assertions | A further representative example once its rules and output are retained | Representative rules or a separately recorded run |
-| Lavatune | Public source, merged change, and linked checks | Captioned change example and runtime demonstration | Confirmation of the intended live audio route; a recording if local execution is unavailable |
+| Lavatune | Public source, merged change, linked checks, and five-run renderer measurement with raw results | A separate live-audio/terminal or power study under stated operating conditions | Confirmation of the intended live audio route; access to the relevant operating setup |
 | CodexDeck | Rebuild-kit account | Procedure and verification summary from accessible source | Retained restoration run for a successful-rebuild claim |
 | Colorado research | Transit case study, route CSV, frequency chart, split/rename diagram, checking script, and dashboard observation | Geography-and-period comparison once suitable retained source material is available | Clarification only if the retained source leaves a substantive ambiguity |
 

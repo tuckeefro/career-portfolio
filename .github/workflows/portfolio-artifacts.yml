@@ -19,21 +19,10 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: Install figure renderers
         run: python3 -m pip install --disable-pip-version-check --no-input CairoSVG==2.7.1 matplotlib==3.9.2
-      - name: Check out the pinned public benchmark source
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-        with:
-          repository: tuckeefro/lavatune
-          ref: f79516e82b9b6383ea1d169be2937c9ba6a5a93d
-          path: .tmp/lavatune-source
-          persist-credentials: false
-      - name: Measure five repetitions of the unmodified render benchmark
-        run: python3 scripts/measure-lavatune.py --checkout .tmp/lavatune-source --output artifacts/lavatune/renderer-benchmark.json
       - name: Check transit arithmetic
         run: python3 artifacts/colorado-transit-award-service/build_crosswalk.py
       - name: Check figure exports and render previews
-        run: |
-          python3 scripts/render-portfolio.py --write-assets --output /tmp/portfolio-rendered --emit-preview-data --preview-path artifacts/lavatune/renderer-comparison.svg
-          python3 scripts/render-portfolio.py --check --output /tmp/portfolio-rendered
+        run: python3 scripts/render-portfolio.py --check --output /tmp/portfolio-rendered
       - name: Verify document links and artifacts
         run: python3 scripts/verify-portfolio.py
       - name: Upload figure previews

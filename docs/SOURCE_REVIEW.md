@@ -18,3 +18,9 @@ This record identifies the material inspected for the supporting artifacts. Sour
 Connected Drive searches covered Pouch, Maybell, Raw Creative, Tension, capstone, Sprinter, résumé, consolidated sources, wildfire, solar, and van aliases. They located the career dossier and software documents. Original shop photos/drawings and capstone/RV source files did not surface in those accessible results. This is a search outcome, not a conclusion that those files do not exist.
 
 The career dossier contains unresolved production-output and other numerical claims. Those values were not added to the figures. Private source code, customer data, credentials, and personal contact details are not reproduced.
+
+## Additional renderer execution: October 8, 2026
+
+The unmodified public Lavatune render benchmark at revision `f79516e82b9b6383ea1d169be2937c9ba6a5a93d` was executed five times in fresh subprocesses on one Ubuntu 24.04 GitHub Actions runner. Each repetition used 120 synthetic frames per path at a 120 × 30 terminal target. The complete reports, source, host, timestamps, and execution method are retained in [renderer-benchmark.json](../artifacts/lavatune/renderer-benchmark.json).
+
+[Recorded execution](https://github.com/tuckeefro/career-portfolio/actions/runs/37884435911). The figure compares component work for scalar-field Fluid and contour Fluid; live audio capture, terminal presentation, power consumption, and visual equivalence were not established. Original physical-work drawings, calculations, and test records remain unlocated in the targeted accessible Drive searches.
