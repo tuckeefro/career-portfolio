@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
 from supplemental_figures import build_figures
+from lavatune_benchmark_figure import build_figure as build_lavatune_figure
 
 ROOT = Path(__file__).resolve().parents[1]
 TRANSIT = ROOT / "artifacts" / "colorado-transit-award-service"
@@ -89,6 +90,11 @@ for relative, content in build_figures(ROOT).items():
     generated = args.output / Path(relative).name
     generated.write_text(content, encoding="utf-8")
     generated_sources[ROOT / relative] = generated
+
+lavatune_relative = "artifacts/lavatune/renderer-comparison.svg"
+lavatune_generated = args.output / "renderer-comparison.svg"
+lavatune_generated.write_text(build_lavatune_figure(ROOT), encoding="utf-8")
+generated_sources[ROOT / lavatune_relative] = lavatune_generated
 
 for retained, generated in generated_sources.items():
     if args.check and (not retained.exists() or retained.read_bytes() != generated.read_bytes()):

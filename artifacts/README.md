@@ -81,6 +81,17 @@ Generated from the retained official-source crosswalk. Arrows show identity link
 
 </details>
 
+<details>
+<summary>Lavatune: repeated measurements of two rendering paths</summary>
+
+<img src="lavatune/renderer-comparison.png" width="375" alt="Median frame costs, five individual runs, and minimum–maximum ranges for scalar-field Fluid and analytic contour Fluid" />
+
+Measured offline on one shared GitHub runner with the original pinned benchmark. Raw results, workload, environment, and scope are retained.
+
+[Supporting record](lavatune/README.md) · [PNG](lavatune/renderer-comparison.png) · [SVG](lavatune/renderer-comparison.svg) · [Raw results](lavatune/renderer-benchmark.json)
+
+</details>
+
 ## Project records
 
 | Work | Inspect |
@@ -92,7 +103,7 @@ Generated from the retained official-source crosswalk. Arrows show identity link
 | VanaHR | [Recovery paths and evidence](vanahr/README.md) |
 | Argus Audit | [Review-to-deletion boundary](argus-audit/README.md) |
 | ShiftForge | [Constraint matrix, executed synthetic fixture, and retained checks](shiftforge/README.md) |
-| Lavatune | [Capture and resource ownership](lavatune/README.md) |
+| Lavatune | [Measured renderer work and resource ownership](lavatune/README.md) |
 | CodexDeck | [Rebuild and acceptance sequence](codexdeck/README.md) |
 | Colorado transit research | [Award/service trace](colorado-transit-award-service/README.md) · [Frequency comparison](colorado-transit-award-service/frequency-comparison.md) · [Route identity](colorado-transit-award-service/route-identity.md) |
 

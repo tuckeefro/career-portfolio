@@ -1,0 +1,136 @@
+{
+  "completed_at_utc": "2026-10-09T04:34:58.338370+00:00",
+  "environment": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "github_repository": "tuckeefro/career-portfolio",
+    "github_run_id": "37884435911",
+    "logical_cpus": 4,
+    "machine": "x86_64",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "runner_image": "ubuntu-24.04"
+  },
+  "format": "career-portfolio-lavatune-render-benchmark-v1",
+  "method": {
+    "configured_blobs": 4,
+    "execution": "One fresh subprocess per repetition; original source benchmark and measurement order unchanged.",
+    "frames_per_path_per_run": 120,
+    "input": "The original script's synthetic silence, speech, bass, music, and transient frame sequence.",
+    "repetitions": 5,
+    "scope": "Body simulation and material generation. Live PCM capture, curses calls, terminal presentation, compositor overhead, display cadence, and power consumption are outside this measurement.",
+    "terminal_height_cells": 30,
+    "terminal_width_cells": 120,
+    "warmup": "No additional warm-up; original script timing boundaries retained."
+  },
+  "runs": [
+    {
+      "repetition": 1,
+      "result": {
+        "alpha_ms_per_frame": 48.417,
+        "cached_contour_ms_per_frame": 0.012,
+        "canvas_geometry_ms_per_frame": 0.363,
+        "contour_cache_rate": 0,
+        "contour_ms_per_frame": 8.862,
+        "frames": 120,
+        "height": 30,
+        "machine": "x86_64",
+        "python": "3.12.3",
+        "speedup": 5.46,
+        "text_ms_per_frame": 22.013,
+        "volume_extra_ms_per_frame": 20.612,
+        "volume_ms_per_frame": 29.474,
+        "volume_vs_contour": 3.33,
+        "wax_ms_per_frame": 14.129,
+        "width": 120
+      }
+    },
+    {
+      "repetition": 2,
+      "result": {
+        "alpha_ms_per_frame": 47.911,
+        "cached_contour_ms_per_frame": 0.012,
+        "canvas_geometry_ms_per_frame": 0.361,
+        "contour_cache_rate": 0,
+        "contour_ms_per_frame": 8.919,
+        "frames": 120,
+        "height": 30,
+        "machine": "x86_64",
+        "python": "3.12.3",
+        "speedup": 5.37,
+        "text_ms_per_frame": 21.966,
+        "volume_extra_ms_per_frame": 20.087,
+        "volume_ms_per_frame": 29.006,
+        "volume_vs_contour": 3.25,
+        "wax_ms_per_frame": 14.02,
+        "width": 120
+      }
+    },
+    {
+      "repetition": 3,
+      "result": {
+        "alpha_ms_per_frame": 47.601,
+        "cached_contour_ms_per_frame": 0.012,
+        "canvas_geometry_ms_per_frame": 0.363,
+        "contour_cache_rate": 0,
+        "contour_ms_per_frame": 8.863,
+        "frames": 120,
+        "height": 30,
+        "machine": "x86_64",
+        "python": "3.12.3",
+        "speedup": 5.37,
+        "text_ms_per_frame": 21.896,
+        "volume_extra_ms_per_frame": 20.713,
+        "volume_ms_per_frame": 29.576,
+        "volume_vs_contour": 3.34,
+        "wax_ms_per_frame": 14.134,
+        "width": 120
+      }
+    },
+    {
+      "repetition": 4,
+      "result": {
+        "alpha_ms_per_frame": 48.155,
+        "cached_contour_ms_per_frame": 0.011,
+        "canvas_geometry_ms_per_frame": 0.361,
+        "contour_cache_rate": 0,
+        "contour_ms_per_frame": 8.776,
+        "frames": 120,
+        "height": 30,
+        "machine": "x86_64",
+        "python": "3.12.3",
+        "speedup": 5.49,
+        "text_ms_per_frame": 21.959,
+        "volume_extra_ms_per_frame": 20.222,
+        "volume_ms_per_frame": 28.998,
+        "volume_vs_contour": 3.3,
+        "wax_ms_per_frame": 14.046,
+        "width": 120
+      }
+    },
+    {
+      "repetition": 5,
+      "result": {
+        "alpha_ms_per_frame": 48.061,
+        "cached_contour_ms_per_frame": 0.012,
+        "canvas_geometry_ms_per_frame": 0.362,
+        "contour_cache_rate": 0,
+        "contour_ms_per_frame": 8.848,
+        "frames": 120,
+        "height": 30,
+        "machine": "x86_64",
+        "python": "3.12.3",
+        "speedup": 5.43,
+        "text_ms_per_frame": 22.158,
+        "volume_extra_ms_per_frame": 20.254,
+        "volume_ms_per_frame": 29.101,
+        "volume_vs_contour": 3.29,
+        "wax_ms_per_frame": 14.167,
+        "width": 120
+      }
+    }
+  ],
+  "source_repository": "tuckeefro/lavatune",
+  "source_revision": "f79516e82b9b6383ea1d169be2937c9ba6a5a93d",
+  "source_script": "scripts/benchmark_render.py",
+  "started_at_utc": "2026-10-09T04:33:44.255880+00:00"
+}
