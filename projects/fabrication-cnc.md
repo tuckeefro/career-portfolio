@@ -20,6 +20,8 @@ Three working days elapsed between shutting the machine down and restarting prod
 
 This is a practical equipment-repair example: moving from symptoms at the cutting process to the equipment supplying it, then carrying the repair through to resumed operation.
 
+[Printable waterjet repair case sheet](../artifacts/career-sheets/02-waterjet.pdf) · [Case-sheet preview and packet](../artifacts/career-sheets/README.md)
+
 ## Supporting repair figure
 
 ![Qualitative interrupted-cut pattern, upstream pump inspection, and reported three-day return to production](../artifacts/fabrication-cnc/waterjet-repair-sequence.svg)

@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: Install figure renderers
-        run: python3 -m pip install --disable-pip-version-check --no-input CairoSVG==2.7.1 matplotlib==3.9.2
+        run: python3 -m pip install --disable-pip-version-check --no-input CairoSVG==2.7.1 matplotlib==3.9.2 pypdf==5.1.0
       - name: Check transit arithmetic
         run: python3 artifacts/colorado-transit-award-service/build_crosswalk.py
       - name: Check figure exports and render previews

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1080 1528" role="img" aria-labelledby="title desc">
+<title id="title">Pouch Factory air-supply engineering case</title><desc id="desc">Air supply selected for initial production, with allowance for a planned second line and a constrained startup budget. Functional reconstruction from my account. Capacity figures and physical pipe routing are unspecified.</desc>
+<defs><marker id="flow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1764C0"/></marker><marker id="command" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#99520C"/></marker></defs>
+<rect width="1080" height="1528" fill="white"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="65" font-size="24" font-weight="bold" fill="#617285" text-anchor="start">TUCKER VANA / CASE 01</text>
+<text x="1020" y="65" font-size="26" font-weight="bold" fill="#1764C0" text-anchor="end">Pouch Factory</text>
+<text x="60" y="146" font-size="52" font-weight="bold" fill="#142434" text-anchor="start">Supply the first line.</text>
+<text x="60" y="210" font-size="52" font-weight="bold" fill="#142434" text-anchor="start">Allow for expansion.</text>
+<text x="60" y="267" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">I sized the air supply from machine requirements, selected the</text>
+<text x="60" y="304" font-size="28" font-weight="normal" fill="#142434" text-anchor="start">rented package, and integrated filtration and distribution.</text>
+<rect x="60" y="386" width="960" height="106" rx="10" fill="#EAF3FF" stroke="#1764C0" stroke-width="2"/>
+<text x="84" y="431" font-size="38" font-weight="bold" fill="#1764C0" text-anchor="start">First line supplied</text>
+<text x="84" y="470" font-size="24" font-weight="normal" fill="#617285" text-anchor="start">Break-in and initial production run · reported in my account</text>
+<text x="60" y="547" font-size="30" font-weight="bold" fill="#142434" text-anchor="start">Functional air-supply arrangement</text>
+<rect x="60" y="582" width="294" height="220" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<circle cx="207" cy="633" r="28" fill="white" stroke="#1764C0" stroke-width="3"/>
+<path d="M198 618 L222 633 L198 648 z" fill="#1764C0"/>
+<text x="207" y="699" font-size="25" font-weight="bold" fill="#142434" text-anchor="middle">Rented package</text>
+<text x="207" y="739" font-size="25" font-weight="normal" fill="#142434" text-anchor="middle">KAESER AIRCENTER</text>
+<rect x="408" y="620" width="174" height="151" rx="10" fill="white" stroke="#D8E0E8" stroke-width="2"/>
+<path d="M449 645 H541 M463 645 L527 680" fill="none" stroke="#1764C0" stroke-width="3"/>
+<text x="495" y="714" font-size="25" font-weight="bold" fill="#142434" text-anchor="middle">Added</text>
+<text x="495" y="746" font-size="25" font-weight="bold" fill="#142434" text-anchor="middle">filtration</text>
+<rect x="726" y="580" width="294" height="158" rx="10" fill="#EAF3FF" stroke="#1764C0" stroke-width="2"/>
+<text x="873" y="637" font-size="32" font-weight="bold" fill="#1764C0" text-anchor="middle">First line</text>
+<text x="873" y="680" font-size="25" font-weight="normal" fill="#142434" text-anchor="middle">Initial operation</text>
+<rect x="726" y="824" width="294" height="158" rx="10" fill="white" stroke="#617285" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="873" y="882" font-size="32" font-weight="bold" fill="#617285" text-anchor="middle">Second line</text>
+<text x="873" y="925" font-size="25" font-weight="normal" fill="#617285" text-anchor="middle">Not yet ordered</text>
+<path d="M354 660 H398" fill="none" stroke="#1764C0" stroke-width="5" stroke-linejoin="round" marker-end="url(#flow)"/>
+<path d="M582 660 H716" fill="none" stroke="#1764C0" stroke-width="5" stroke-linejoin="round" marker-end="url(#flow)"/>
+<path d="M646 660 V903 H716" fill="none" stroke="#617285" stroke-width="5" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<circle cx="646" cy="660" r="6" fill="#1764C0"/>
+<text x="625" y="779" font-size="24" font-weight="normal" fill="#617285" text-anchor="end">Planned</text>
+<text x="625" y="811" font-size="24" font-weight="normal" fill="#617285" text-anchor="end">demand</text>
+<text x="60" y="1029" font-size="25" font-weight="normal" fill="#617285" text-anchor="start">Solid path: operated first-line load. Dashed path: expansion allowance.</text>
+<text x="60" y="1094" font-size="30" font-weight="bold" fill="#142434" text-anchor="start">Decisions and contribution</text>
+<rect x="60" y="1122" width="960" height="79" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="84" y="1156" font-size="26" font-weight="bold" fill="#1764C0" text-anchor="start">Demand</text>
+<text x="287" y="1154" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">Peak machine demand + planned second-line</text>
+<text x="287" y="1185" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">allowance + headroom.</text>
+<rect x="60" y="1209" width="960" height="79" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="84" y="1243" font-size="26" font-weight="bold" fill="#1764C0" text-anchor="start">Budget</text>
+<text x="287" y="1241" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">Rented the package for lower initial expenditure than</text>
+<text x="287" y="1272" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">purchase options.</text>
+<rect x="60" y="1296" width="960" height="79" rx="10" fill="#F2F6FA" stroke="#D8E0E8" stroke-width="2"/>
+<text x="84" y="1330" font-size="26" font-weight="bold" fill="#1764C0" text-anchor="start">Receiver</text>
+<text x="287" y="1328" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">No additional receiver purchase; higher compressor</text>
+<text x="287" y="1359" font-size="25" font-weight="normal" fill="#142434" text-anchor="start">duty cycle accepted.</text>
+<text x="60" y="1420" font-size="22" font-weight="normal" fill="#617285" text-anchor="start">Functional reconstruction from my account. Capacity figures and physical pipe routing</text>
+<text x="60" y="1449" font-size="22" font-weight="normal" fill="#617285" text-anchor="start">are unspecified.</text>
+<a href="https://github.com/tuckeefro/career-portfolio/blob/main/projects/production-compressed-air.md"><text x="60" y="1492" font-size="22" font-weight="normal" fill="#1764C0" text-anchor="start">Source: projects/production-compressed-air.md</text></a>
+</g></svg>

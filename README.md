@@ -8,6 +8,14 @@ Project pages describe what I did, why, and what evidence is available.
 
 [Experience](EXPERIENCE.md) · [Capabilities with examples](CAPABILITIES.md) · [Complete work index](WORK_INDEX.md) · [Supporting records](artifacts/README.md)
 
+## Engineering work-sample packet
+
+[Download the four-page PDF](artifacts/career-sheets/engineering-portfolio.pdf) · [View the illustrated case sheets](artifacts/career-sheets/README.md)
+
+The packet pairs my contribution with a technical drawing, the decisions I made, and the observed project stage: production air supply, a waterjet pump rebuild, and prototype instrumentation. Individual pages are available as PDF, PNG, and SVG.
+
+[Application bullets and interview stories](docs/CAREER_PLAYBOOK.md) · [Firsthand details for the next revision](docs/OWNER_INPUTS.md)
+
 ## Featured work
 
 | Work | What to look for |

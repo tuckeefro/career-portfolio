@@ -36,6 +36,8 @@ I tried modifications to improve the straightness of the welding setup used in c
 
 The trials showed that the available setup lacked the precision needed for that phase of the experiment. This work covered adapting equipment and assessing its suitability for the experimental task.
 
+[Printable instrumentation case sheet](../artifacts/career-sheets/03-maybell.pdf) · [Case-sheet preview and packet](../artifacts/career-sheets/README.md)
+
 ## Supporting instrumentation figure
 
 ![Measurement readouts and operator valve commands share one functional GUI](../artifacts/cryogenic-hardware/instrumentation-flow.svg)
