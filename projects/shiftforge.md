@@ -17,3 +17,7 @@ This is a scheduling project, without claims of global optimization, regulatory 
 ## Supporting record
 
 [Actual synthetic scheduler inputs, output, and 12 passed checks](../artifacts/shiftforge/README.md).
+
+![Retained synthetic scheduling matrix with explicit rest, PTO, and availability exclusions](../artifacts/shiftforge/constraint-matrix.svg)
+
+The figure shows the actual normalized output of the retained synthetic example. One required seat remains unfilled. [Inspect the figure, inputs, output, and execution scope](../artifacts/shiftforge/README.md).

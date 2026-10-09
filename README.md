@@ -18,7 +18,7 @@ Project pages describe what I did, why, and what evidence is available.
 
 ## Inspect the work
 
-[Browse all five technical figures](artifacts/README.md#technical-figures) · [Read their evidence and scope](docs/FIGURE_GUIDE.md) · [Prepared post drafts](posts/README.md)
+[Browse the technical figures](artifacts/README.md#technical-figures) · [Read their evidence and scope](docs/FIGURE_GUIDE.md) · [Prepared post drafts](posts/README.md)
 
 <details>
 <summary>Preview the waterjet repair: cutting fault, pump inspection, production restart</summary>
@@ -44,6 +44,15 @@ The drawing explains the diagnostic comparison. [Inspect the account and install
 <img src="artifacts/colorado-transit-award-service/scheduled-frequency.png" width="375" alt="Before and announced scheduled departures per hour for FreeRide, a specified Route 43 peak segment, and ART" />
 
 The chart is calculated from the retained public-source table. [Inspect the data and calculation](artifacts/colorado-transit-award-service/frequency-comparison.md).
+
+</details>
+
+<details>
+<summary>Preview ShiftForge: constraints, assignments, and an explicit unfilled seat</summary>
+
+<img src="artifacts/shiftforge/constraint-matrix.png" width="375" alt="Synthetic worker matrix showing rest and PTO exclusions on March 22, assignments on March 23, and one explicitly unfilled seat" />
+
+Generated from retained synthetic inputs and actual normalized scheduler output. [Inspect the inputs, output, and execution scope](artifacts/shiftforge/README.md).
 
 </details>
 
