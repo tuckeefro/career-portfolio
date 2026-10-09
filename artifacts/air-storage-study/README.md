@@ -85,3 +85,5 @@ python3 scripts/verify-portfolio.py
 ```
 
 Use this as an analytical supplement for manufacturing, equipment-integration, or test roles. Describe it as a current AI-assisted study. The historical case sheet remains the account of the paid work.
+
+[Recorded calculation and initial export run](https://github.com/tuckeefro/career-portfolio/actions/runs/37951390016): 13 calculation checks passed; tables, three figures, and PDF exports were regenerated and checked.

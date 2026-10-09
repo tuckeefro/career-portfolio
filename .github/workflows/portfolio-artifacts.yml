@@ -22,11 +22,9 @@ jobs:
       - name: Check transit arithmetic
         run: python3 artifacts/colorado-transit-award-service/build_crosswalk.py
       - name: Check air-storage calculations
-        run: python3 scripts/air_storage_model.py --write-records --emit-records
+        run: python3 scripts/air_storage_model.py --check
       - name: Check figure exports and render previews
-        run: |
-          python3 scripts/render-portfolio.py --write-assets --output /tmp/portfolio-rendered --emit-preview-data --preview-path artifacts/air-storage-study/buffer-duration.svg --preview-path artifacts/air-storage-study/required-storage.svg --preview-path artifacts/air-storage-study/pressure-recovery.svg
-          python3 scripts/render-portfolio.py --check --output /tmp/portfolio-rendered
+        run: python3 scripts/render-portfolio.py --check --output /tmp/portfolio-rendered
       - name: Verify document links and artifacts
         run: python3 scripts/verify-portfolio.py
       - name: Upload figure previews
