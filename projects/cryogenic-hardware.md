@@ -2,7 +2,7 @@
 
 **Professional work · Mechanical engineering, instrumentation, and manufacturing trials**
 
-At Maybell, I worked on dilution-refrigerator hardware, helium gas handling, instrumentation, tooling, and cryogenic wiring. Three examples connect that work to specific engineering problems.
+At Maybell, I worked on dilution-refrigerator hardware, helium gas handling, instrumentation, tooling, and cryogenic wiring as an employee contributing to the team's engineering work. The examples below describe my specific contributions.
 
 ## Prototype instrumentation and operator controls
 
@@ -26,9 +26,13 @@ flowchart LR
 
 Functional overview of the measurement integration; wiring details and interface specifications are not shown.
 
-## Cable connector and assembly development
+## Flexlines weld testing and connector development
 
-I investigated commercially available connectors and trialed ways to mechanically join connectors to cryogenic ribbon cable. The work balanced component compatibility, material constraints, and repeatable assembly.
+As a Maybell employee, I contributed to the team's Flexlines coaxial ribbon-cable development. [Maybell's product page](https://www.maybellquantum.com/products/wiring-solutions) provides public product context.
+
+I handled most of the weld-testing effort, including working with outside partners on weld tests and personally running additional weld tests.
+
+I also investigated commercially available connectors and trialed ways to mechanically join connectors to cryogenic ribbon cable. The work balanced component compatibility, material constraints, and repeatable assembly.
 
 ## Exploratory CNC welding trials
 
@@ -48,4 +52,4 @@ Reconstructed from this account. Measurements and operator commands are shown se
 
 The American Physical Society lists me as presenter and coauthor of **Scalable Flexible Coaxial Ribbon Cables for High-Density Quantum Wiring (Part II)** at the 2023 March Meeting. Its abstract describes laser-welded cable manufacturing and room/cryogenic-temperature characterization. [Read the APS record](https://meetings-archive.aps.org/mar/2023/q72/5/).
 
-The examples above describe my work; the APS record documents the team presentation. Proprietary drawings, process parameters, and internal test records are kept out of this repository.
+The examples above describe my employee contributions; the APS record documents the team presentation and my presenter/coauthor role. It does not establish how the team divided the weld tests. Maybell's current product descriptions and performance claims belong to the company. Proprietary drawings, process parameters, and internal test records are kept out of this repository.

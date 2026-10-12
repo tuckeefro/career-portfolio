@@ -11,6 +11,7 @@ The lead is mechanical engineering carried into equipment setup, operation, and 
 | Manufacturing, production utilities, equipment integration | Pouch Factory air supply | Used requirements, selected equipment under the startup budget, integrated the supply, and carried it into first-line operation |
 | Equipment maintenance/service, CNC/shop troubleshooting | Waterjet rebuild | Investigated a process symptom upstream, inspected and rebuilt the pump, and checked return to production |
 | Instrumentation, prototype hardware, test integration | Maybell readouts and controls | Connected instrument wiring, readout integration, a shared GUI, and operator valve commands |
+| Manufacturing development, experimental test work | Maybell Flexlines weld testing | Worked with outside partners on weld tests and personally ran additional tests as an employee on the cable-development team |
 | Hands-on technical operations | Pouch startup plus fabrication/practical operations | Combined planning and documentation with actual line build, operation, troubleshooting, and material/equipment work |
 
 Match the packet to the duties. Engineer, technician, service, and practical operations openings can each use different parts of the same experience. The complete history stays in the experience page and work index.
@@ -22,6 +23,7 @@ These bullets follow the retained project accounts. Confirm the role title and e
 - **Pouch Factory:** Selected and integrated a rented KAESER AIRCENTER package, filtration, and distribution using machine airflow requirements, planned second-line demand, and startup budget constraints; supplied the first line during equipment break-in and the initial production run.
 - **Waterjet:** Inspected and rebuilt a CNC waterjet high-pressure pump with the standard 5,000-hour kit after intermittent loss of cut penetration; restored consistent through-cutting and resumed production in three working days.
 - **Maybell:** Set up and wired a Lake Shore Model 372, integrated its readout through a LattePanda, and combined system measurements and pneumatic gas-valve controls in a unified operator GUI.
+- **Maybell weld testing:** Conducted weld tests and worked with external partners on weld testing for Maybell's Flexlines coaxial ribbon-cable development, contributing most of the team's weld-testing effort.
 - **Maybell manufacturing trial:** Integrated a welder with the in-house CNC for jogged positioning and assessed the setup against the precision needed for the cable-manufacturing experiment.
 
 Use two or three relevant bullets. The first-line stage, planned expansion, and experimental limits matter to the account. Production-volume, savings, accuracy, and pressure figures are omitted where the retained sources do not support them.
@@ -40,9 +42,9 @@ Show page 3. Be ready to identify what moved, what the kit replaced, and which c
 
 ## Interview story: prototype instrumentation
 
-> At Maybell I worked on the refrigeration prototype's instrumentation and operator interface. I set up and wired the Lake Shore 372, brought its readout through a LattePanda, and combined it with pressure, flow, heater output, and valve state in a single GUI. Operators could use the same interface to command pneumatic valves in the gas-handling system. My contribution connected the instrument, its readout, and the interface used to monitor and operate the prototype. I also worked on connector-assembly trials and CNC-welder positioning; that welding setup did not have the precision needed for that experimental phase.
+> At Maybell I worked on the refrigeration prototype's instrumentation and operator interface. I set up and wired the Lake Shore 372, brought its readout through a LattePanda, and combined it with pressure, flow, heater output, and valve state in a single GUI. Operators could use the same interface to command pneumatic valves in the gas-handling system. My contribution connected the instrument, its readout, and the interface used to monitor and operate the prototype. I also handled most of the Flexlines weld-testing effort, working with outside partners on tests and running additional tests myself, alongside connector-assembly trials and CNC-welder positioning. That exploratory CNC welding setup did not have the precision needed for that experimental phase.
 
-Show page 4. Be ready to explain the actual instrument connection and valve-command path. The APS record identifies the team's cable presentation and Tucker's presenter/coauthor role; it is separate from proof of the instrumentation arrangement.
+Show page 4. Be ready to explain the actual instrument connection and valve-command path. The APS record identifies the team's cable presentation and Tucker's presenter/coauthor role; it is separate from proof of the instrumentation arrangement. Describe Flexlines as Maybell team work and identify the weld tests and partner work you personally carried out. The extent of the testing contribution is firsthand testimony; the public sources do not establish the division of tests or individual test results.
 
 ## Prepare one application at a time
 

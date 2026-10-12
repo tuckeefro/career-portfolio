@@ -1,6 +1,6 @@
 # Portfolio evidence map
 
-Working review prepared October 7, 2026, from repository main commit `78461bf1887f522c9061b06e2c48ddc909f7a21e`. This document tracks what can be produced from existing material and which input depends on Tucker's firsthand knowledge. Figure and execution coverage was updated October 9, 2026.
+Working review prepared October 7, 2026, from repository main commit `78461bf1887f522c9061b06e2c48ddc909f7a21e`. This document tracks what can be produced from existing material and which input depends on Tucker's firsthand knowledge. Figure and execution coverage was updated October 9, 2026; Maybell contribution and source coverage was updated October 11, 2026.
 
 ## Work split
 
@@ -25,7 +25,7 @@ The assistant can continue bounded searches for original records, analyze public
 | Pouch Factory buildout | Startup account covering layout, utilities, documents, operation, and training | Annotated layout or installation sequence once source material is found | One layout/build photo or the location of the working files |
 | Pouch Factory compressed air | Decision account and supporting figure | Source-linked sizing record after locating the inputs | Airflow calculation or machine demand sheet; recollection is acceptable when labeled |
 | Maybell instrumentation | Lake Shore/LattePanda/GUI/valve account and functional diagram | Diagram separating measurement, operator command, and equipment state | One screenshot or wiring note; corrections to the signal paths |
-| Maybell manufacturing trials | Connector and CNC-welding trial accounts; linked public APS record | Trial summary and annotated setup from publishable material | What Tucker modified and how insufficient precision was recognized |
+| Maybell manufacturing trials | Firsthand employee contribution to Flexlines: most of the weld-test effort, work with outside partners, personally run tests, connector and CNC-welding trials; Maybell product page and named APS presenter/coauthor record | Source-linked contribution summary; annotated setup or test figures when publishable records are available | Any publishable test record or setup image; how trial precision was assessed |
 | Waterjet repair | Symptom, inspection, rebuild, and restart account; repair figure | Captioned repair sequence and retained verification record | One repair/cut photo, or pump model and approximate dates |
 | Raw Creative | Employer identified in fabrication experience; no distinct artifact included | Separate fabrication example | One actual item and Tucker's design, fabrication, or installation contribution |
 | Tension Climbing | Employer identified in fabrication experience; no distinct artifact included | Separate job example | One actual task and Tucker's contribution |

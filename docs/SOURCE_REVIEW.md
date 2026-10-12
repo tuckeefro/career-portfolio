@@ -30,3 +30,11 @@ The unmodified public Lavatune render benchmark at revision `f79516e82b9b6383ea1
 Targeted connected-Drive searches for Pouch and Sprinter returned career documents for Pouch and no Sprinter results. The career dossier was inspected; its unresolved numerical claims were not promoted into historical project figures.
 
 The DOE sourcebook, third edition, Fact Sheet 6, printed page 43 (PDF page 48), was inspected for the receiver inventory equation and the treatment of supply during a demand event. The [air-storage supplement](../artifacts/air-storage-study/README.md) implements a current worked example with explicitly illustrative inputs, constant-temperature ideal-gas inventory, raw tables, and mathematical checks. Figures and PDF exports are generated from those records. This is an AI-assisted engineering study, separate from validation of the historical installation.
+
+## Maybell public product and firsthand role: October 11, 2026
+
+The [Maybell wiring-solutions page](https://www.maybellquantum.com/products/wiring-solutions) identifies Flexlines as the company's coaxial ribbon-cable product and links product/installation imagery. Current product performance statements are Maybell's claims; they are not measurements attributed to Tucker.
+
+The [APS March Meeting 2023 record](https://meetings-archive.aps.org/mar/2023/q72/5/) was inspected live. It names Tucker Vana as presenter and coauthor of the team presentation on flexible coaxial ribbon cables and describes a custom laser-welding production technique and room/cryogenic-temperature characterization. It does not specify the division of testing responsibilities.
+
+Tucker clarified his employee role firsthand: he handled most of the weld-testing effort, worked with outside partners on weld tests, and personally ran additional weld tests. The project account, experience summary, and application wording now carry that distinction. The specific partners, test counts, settings, and individual results have not been supplied; no production qualification or exclusive product authorship is inferred. Website photographs have not been copied into the repository.

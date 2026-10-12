@@ -21,7 +21,7 @@ The packet pairs my contribution with a technical drawing, the decisions I made,
 | Work | What to look for |
 |---|---|
 | [Production startup — Pouch Factory](projects/production-startup.md) | Engineering planning, CAD/calculations, utilities, and hands-on line build and operation |
-| [Cryogenic hardware — Maybell Quantum](projects/cryogenic-hardware.md) | Lake Shore/LattePanda instrumentation and gas-valve controls, manufacturing trials, and a public APS presentation record |
+| [Cryogenic hardware — Maybell Quantum](projects/cryogenic-hardware.md) | Instrumentation and gas-valve controls; employee contribution to Flexlines weld testing with outside partners and personally run tests; public APS presenter/coauthor record |
 | [Fabrication and CNC](projects/fabrication-cnc.md) | Waterjet pump rebuild: consistent cutting restored and production resumed in three working days |
 
 ## Inspect the work
