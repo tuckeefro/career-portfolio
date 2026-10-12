@@ -20,6 +20,8 @@ Work included helium gas handling, dilution-refrigerator hardware, tooling, cryo
 
 My instrumentation work included setting up and wiring a Lake Shore Model 372 and integrating its readout through a LattePanda into a unified GUI. The interface displayed pressure, flow, heater output, and valve state, and controlled pneumatic valves in the gas-handling system.
 
+As a Maybell employee, I handled most of the Flexlines weld-testing effort, working with outside partners on weld tests and personally running additional tests. I also investigated connectors and mechanical joining for the team's cryogenic ribbon-cable development.
+
 My exploratory manufacturing work included integrating a welder with the in-house CNC for jogged positioning and finding that the setup lacked the precision required for that phase of the cable-manufacturing experiment.
 
 A public APS March Meeting 2023 record lists me as presenter and coauthor of [Scalable Flexible Coaxial Ribbon Cables for High-Density Quantum Wiring (Part II)](https://meetings-archive.aps.org/mar/2023/q72/5/).
