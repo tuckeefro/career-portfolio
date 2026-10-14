@@ -1,5 +1,15 @@
 # Experience and education
 
+## Employment at a glance
+
+| Employer | Read more |
+|---|---|
+| Pouch Factory | [Production startup and equipment integration](#production-startup--pouch-factory) |
+| Raw Creative | [Fabrication and technical development](#fabrication-and-technical-development) |
+| Tension Climbing | [Fabrication and technical development](#fabrication-and-technical-development) |
+| Maybell Quantum | [Mechanical engineering and prototype work](#mechanical-engineering--maybell-quantum) |
+| DBC Irrigation Supply | [Practical operations](#earlier-practical-operations) |
+
 ## Production startup — Pouch Factory
 
 **Head of Technical Operations · January–September 2024 (approximate)**
@@ -32,7 +42,7 @@ Truck driving, forklift/skid-steer operation, material handling, and yard work a
 
 ## Independent software projects
 
-VanaHR, Lavatune, Argus Audit, and ShiftForge were implemented by AI coding agents under my direction. For VanaHR, I set a 15-minute rollback requirement for the production web application and database. I recall validating it in production; the dated run record is not included here.
+VanaHR, Lavatune, Argus Audit, and ShiftForge were implemented by AI coding agents under my direction. For VanaHR, I set a 15-minute rollback requirement for the production web application and database. I recall validating it in production; the dated run record is not included here. The inspected runbook separately documents a 60-minute critical backend/database restoration target and a 15-minute maximum database state-loss target. [Recovery targets and retained evidence](artifacts/vanahr/README.md).
 
 ## Independent hardware and analysis projects
 
