@@ -1,28 +1,23 @@
-# Tucker Vana
+# Tucker Vana — Mechanical Engineering and Equipment Work
 
-**Mechanical engineer · Manufacturing, cryogenic hardware, equipment integration, and troubleshooting**
+**Manufacturing · Fabrication and CNC repair · Equipment integration · Troubleshooting**
 
-I’m a Colorado School of Mines mechanical engineering graduate, cum laude. My experience includes production startup, cryogenic systems, fabrication, CNC equipment, and technical operations. My independent projects extend that work into software, Linux systems, and public-data analysis.
+I’m a Colorado School of Mines mechanical engineering graduate, cum laude. My paid work combines technical planning with building, operating, and repairing equipment: production startup, custom fabrication, CNC equipment, scientific hardware, and practical operations. My independent projects extend that work into RV power, Linux systems, software development directed through AI coding agents, and Colorado public-data analysis.
 
-Project pages describe what I did, why, and what evidence is available.
+The useful part is the decision and the check behind it. These pages explain my contribution, the constraints I worked through, the results I can account for, and the limits of the retained evidence.
 
 [Experience](EXPERIENCE.md) · [Capabilities with examples](CAPABILITIES.md) · [Complete work index](WORK_INDEX.md) · [Supporting records](artifacts/README.md)
 
-## Engineering work-sample packet
-
-[Download the four-page PDF](artifacts/career-sheets/engineering-portfolio.pdf) · [View the illustrated case sheets](artifacts/career-sheets/README.md)
-
-The packet pairs my contribution with a technical drawing, the decisions I made, and the observed project stage: production air supply, a waterjet pump rebuild, and prototype instrumentation. Individual pages are available as PDF, PNG, and SVG.
-
-[Application bullets and interview stories](docs/CAREER_PLAYBOOK.md) · [Firsthand details for the next revision](docs/OWNER_INPUTS.md)
-
 ## Featured work
 
-| Work | What to look for |
+| Work | Contribution and evidence |
 |---|---|
-| [Production startup — Pouch Factory](projects/production-startup.md) | Engineering planning, CAD/calculations, utilities, and hands-on line build and operation |
-| [Cryogenic hardware — Maybell Quantum](projects/cryogenic-hardware.md) | Instrumentation and gas-valve controls; employee contribution to Flexlines weld testing with outside partners and personally run tests; public APS presenter/coauthor record |
-| [Fabrication and CNC](projects/fabrication-cnc.md) | Waterjet pump rebuild: consistent cutting restored and production resumed in three working days |
+| [Production startup — Pouch Factory](projects/production-startup.md) | CAD/calculations, utilities, documentation, and hands-on line build and operation; the account identifies equipment break-in and an initial production run as the stage reached |
+| [Fabrication and CNC repair](projects/fabrication-cnc.md) | Investigated intermittent loss of cut penetration, inspected and rebuilt the waterjet pump, and checked the restart; consistent cutting and a three-working-day return to production are reported in my account |
+| [Sprinter and SCAMP power](projects/mobile-power.md) | Personally installed Sprinter house power and the SCAMP solar/shunt setup; the SCAMP case connects roof space and cost to panel choice, then uses a direct-panel test to isolate a connector fault |
+| [Software development direction](projects/shiftforge.md) · [Lavatune](projects/lavatune.md) | AI coding agents wrote the implementation under my direction; inspect ShiftForge’s retained synthetic assignments and explicit shortage, or Lavatune’s repeated offline renderer measurements |
+| [Colorado public-data analysis](projects/colorado-budget-research.md) | A source-linked transit award/service crosswalk, reproducible headway arithmetic, and route-identity checks; the measured unit is announced scheduled service |
+| [Scientific hardware — Maybell Quantum](projects/cryogenic-hardware.md) | Instrument wiring, readout integration, and gas-valve controls; I handled most of the team’s Flexlines weld-test effort as a Maybell employee, working with outside partners and personally running additional tests |
 
 ## Inspect the work
 
@@ -64,11 +59,15 @@ Generated from retained synthetic inputs and actual normalized scheduler output.
 
 </details>
 
-## Current engineering analysis
+[Lavatune’s renderer comparison](artifacts/lavatune/README.md) retains five runs, the benchmark source, raw results, and operating conditions. Its timings cover offline simulation and material generation; live audio and terminal presentation are outside the measurement.
 
-[Compressed-air storage study](artifacts/air-storage-study/README.md) · [Three-page analysis PDF](artifacts/air-storage-study/air-storage-analysis.pdf)
+## Engineering work-sample packet
 
-Three calculated figures examine usable buffer time, required storage, and pressure recovery. Inputs, equations, data tables, and mathematical checks are retained. This is a current AI-assisted analysis with illustrative inputs, linked to the production-air case.
+[Download the four-page PDF](artifacts/career-sheets/engineering-portfolio.pdf) · [View the illustrated case sheets](artifacts/career-sheets/README.md)
+
+The packet focuses on three paid-work examples: production air supply, a waterjet pump rebuild, and prototype instrumentation. It pairs my contribution with a functional drawing, the decision or repair, and the reported project stage. Individual pages are available as PDF, PNG, and SVG.
+
+[Application bullets and interview stories](docs/CAREER_PLAYBOOK.md) · [Firsthand details for the next revision](docs/OWNER_INPUTS.md)
 
 ## Additional work
 
@@ -76,14 +75,22 @@ VanaHR, Argus Audit, ShiftForge, and Lavatune were implemented by AI coding agen
 
 | Work | Focus |
 |---|---|
-| [VanaHR](projects/vanahr.md) | Onboarding application; recovery planning and owner-reported rollback validation |
-| [Lavatune](projects/lavatune.md) | Software experiment built through AI coding agents; public implementation and change history |
-| [Argus Audit](projects/argus-audit.md) | On-device iOS photo analysis and controls around destructive operations |
-| [ShiftForge](projects/shiftforge.md) | Scheduling constraints and application integrations |
-| [CodexDeck](projects/codexdeck.md) | Reproducible Linux workstation configuration and recovery |
+| [VanaHR](projects/vanahr.md) | Onboarding workflows and a 15-minute application/database rollback requirement; production validation is recalled, with no dated timing record included |
+| [Lavatune](projects/lavatune.md) | Local audio visualizer; public implementation, change history, and retained offline renderer measurements |
+| [Argus Audit](projects/argus-audit.md) | On-device iOS photo-review prototype and controls around deletion |
+| [ShiftForge](projects/shiftforge.md) | Scheduling constraints and application integrations; retained synthetic execution shows an uncovered seat |
+| [CodexDeck](projects/codexdeck.md) | Linux workstation configuration, rebuild procedure, and acceptance checks; a fresh-machine restoration run is not retained |
 | [RV power systems](projects/mobile-power.md) | Sprinter house power and SCAMP solar installation and fault isolation |
-| [Colorado budget research](projects/colorado-budget-research.md) | Reproducible analysis, source reconciliation, and measurement limits |
+| [Colorado budget research](projects/colorado-budget-research.md) | Public-data models, source reconciliation, and measurement limits |
 | [Mines capstone](projects/mines-capstone.md) | Mechanical engineering on a four-rotor wildfire-drone team |
+
+[VanaHR’s recovery record](artifacts/vanahr/README.md) distinguishes the recalled rollback check from documented restoration-time and data-loss objectives.
+
+## Current engineering analysis
+
+[Compressed-air storage study](artifacts/air-storage-study/README.md) · [Three-page analysis PDF](artifacts/air-storage-study/air-storage-analysis.pdf)
+
+Three calculated figures examine usable buffer time, required storage, and pressure recovery. Inputs, equations, data tables, and mathematical checks are retained. This is a current AI-assisted analysis with illustrative inputs, linked to the production-air case.
 
 ## Public technical record
 
@@ -92,5 +99,7 @@ The American Physical Society lists me as presenter and coauthor of **Scalable F
 ## Background
 
 B.S. Mechanical Engineering, Colorado School of Mines, December 2021. Cum laude; 3.65 GPA.
+
+My employment history includes Pouch Factory, Raw Creative, Tension Climbing, Maybell Quantum, and DBC Irrigation Supply. The [experience page](EXPERIENCE.md) keeps that history together.
 
 These pages summarize selected professional and independent work. Private source documents and project code are not included.
